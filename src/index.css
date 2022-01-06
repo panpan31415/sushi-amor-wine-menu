@@ -1,0 +1,17 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  --white: #fff;
+  --amor-darkred: #520004;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

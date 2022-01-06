@@ -1,0 +1,51 @@
+.wine-page-single {
+  width: 148mm;
+  height: 210mm;
+  background-color: var(--amor-darkred);
+  overflow: hidden;
+  padding: 10mm;
+  display: grid;
+  grid-template-columns: 50mm 78mm;
+  position: relative;
+}
+.left-side {
+  width: 50mm;
+  img {
+    width: 100%;
+  }
+}
+.right-side {
+  padding: 5mm;
+  padding-left: 10mm;
+  color: #fff;
+  font-family: "Alegreya", serif;
+  line-height: 7mm;
+  font-weight: 100;
+}
+.name {
+  font-size: 8mm;
+  color: #e6ad53;
+}
+.description {
+  margin-top: 10mm;
+  &--title {
+    font-weight: 400;
+  }
+}
+.review {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+.system-label {
+  position: absolute;
+  bottom: 10mm;
+  background-color: #e6ad53;
+  color: var(--amor-darkred);
+  width: 15mm;
+  height: 15mm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10mm;
+  border-radius: 100%;
+}
