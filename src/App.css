@@ -3,6 +3,13 @@
   height: 100vh;
   background-color: rgb(40, 44, 52);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.nav-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
 }

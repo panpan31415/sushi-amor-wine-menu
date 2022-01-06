@@ -10,9 +10,10 @@
 }
 .left-side {
   width: 50mm;
-  img {
-    width: 100%;
-  }
+  height: 190mm;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .right-side {
   padding: 5mm;
@@ -38,7 +39,8 @@
 }
 .system-label {
   position: absolute;
-  bottom: 10mm;
+  right: 5mm;
+  bottom: 5mm;
   background-color: #e6ad53;
   color: var(--amor-darkred);
   width: 15mm;
@@ -48,4 +50,16 @@
   align-items: center;
   font-size: 10mm;
   border-radius: 100%;
+}
+.cover-logo {
+  width: 30mm;
+  position: absolute;
+  right: 5mm;
+  top: 5mm;
+}
+.cover-glasses {
+  position: absolute;
+  width: 40mm;
+  bottom: 10mm;
+  right: 10mm;
 }

@@ -1,41 +1,48 @@
 import React from "react";
 import "./index.scss";
 
-let page = ({ imageSrc, name, description }) => {
+let page = ({ wine }) => {
+  const {
+    name,
+    imageUrl,
+    description1,
+    goodWith,
+    description2,
+    alcohol,
+    volume,
+    systemLabel,
+  } = wine;
+  const contain = systemLabel === "8" ? { backgroundSize: "contain" } : {};
   return (
     <div className="wine-page-single">
-      <div className="left-side">
-        <img alt="wine_1" src={require("../images/wines/1.png")} />
-      </div>
+      <div
+        className="left-side"
+        style={{
+          backgroundImage: `url(${imageUrl})`,
+          ...contain,
+        }}></div>
       <div className="right-side">
-        <h1 className="name">LÉGENDE "R" ROUGE</h1>
+        <h1 className="name"> {name}</h1>
         <hr />
-        <p className="description">En elegant og let drikkelig vin.</p>
+        <p className="description">{description1}</p>
+        <p>
+          <span className="description--title">God til:</span> {goodWith}
+        </p>
         <br />
+        <p>{description2}</p>
         <br />
         <p>
-          <span className="description--title">God til:</span> Grill, ost -
-          kraftig, ost - mild, asiatiske retter
+          <span className="description--title">ALKOHOL:</span> {alcohol}
+        </p>
+        <p>
+          <span className="description--title">INDHOLD</span> {volume}
         </p>
         <br />
         <p>
-          Dyb lilla farve med en charmerende duft af solbær, kirsebær og lidt
-          toastede noter fra fadlagringen. Smagen er fyldig og struktureret med
-          gode bløde tanniner og en frugtdomineret afslutning af smagen.
-        </p>
-        <br />
-        <p>
-          <span className="description--title">ALKOHOL:</span> 13 %
-        </p>
-        <p>
-          <span className="description--title">INDHOLD</span> 75 cl
-        </p>
-        <br />
-        <p>
-          <span className="description--title">Pris</span>ttjek vores digitale
+          <span className="description--title">Pris: </span>tjek vores digitale
           meun eller spørg en tjener
         </p>
-        <div className="system-label">1</div>
+        <div className="system-label">{systemLabel}</div>
       </div>
     </div>
   );
