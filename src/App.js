@@ -23,8 +23,8 @@ class App extends React.Component {
           }>
           Previous
         </button>
-        <Cover />
-        {/* <WinePageSingle wine={wines[this.state.pageIndex + 1]} /> */}
+        {/* <Cover /> */}
+        <WinePageSingle wine={wines[this.state.pageIndex + 1]} />
         <button
           className="nav-btn"
           onClick={() =>
