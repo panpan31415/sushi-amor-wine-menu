@@ -1,5 +1,8 @@
-const wines = {
-  1: {
+const pages = {
+  1: {}, // cover
+  2: {}, // empty page
+  3: {}, // price list
+  4: {
     name: `LÉGENDE "R" ROUGE`,
     imageUrl: "images/wines/1.png",
     description1: `En elegant og let drikkelig vin.`,
@@ -12,7 +15,7 @@ const wines = {
     volume: `75 cl`,
     systemLabel: "1",
   },
-  2: {
+  5: {
     name: `LÉGENDE "R" BLANC`,
     imageUrl: "images/wines/2.png",
     description1: `Frisk og aromatisk, let drikkelig hvidvin fra Bordeaux.En elegant og let drikkelig vin.`,
@@ -24,7 +27,7 @@ const wines = {
     volume: `75 cl`,
     systemLabel: "2",
   },
-  3: {
+  6: {
     name: `FABIANO VALPOLICELLA CLASSICO`,
     imageUrl: "images/wines/3.png",
     description1: `Dejlig frisk Valpolicella med fed frugtstil. Dette er vinen som smager perfekt i det varme område omkring Gardasøen.
@@ -34,10 +37,10 @@ const wines = {
     En herlig ledsager til lettere pastaretter og friske oste fra Italien.
     `,
     alcohol: `13.5 %`,
-    volume: `75 cl`,
+    volume: `75 cl eller 37.5 cl`,
     systemLabel: "3",
   },
-  4: {
+  7: {
     name: `MURÉ CALCAIRES JAUNES RIESLING`,
     imageUrl: "images/wines/4.png",
     description1: `Fra den sydlige ende af Alsace kommer denne mesterlige Riesling. Grundet det sydlige terroir har man her lidt mere fedme end man normalt finder i Alsace Riesling.`,
@@ -48,7 +51,7 @@ const wines = {
     volume: `75 cl eller 37.5 cl`,
     systemLabel: "4",
   },
-  5: {
+  8: {
     name: `VIÑA TARAPACÁ RESERVA`,
     imageUrl: "images/wines/5.png",
     description1: `En virkelig interessant vin fra tophuset Viña Tarapacá.`,
@@ -59,7 +62,7 @@ const wines = {
     volume: `75 cl`,
     systemLabel: "5",
   },
-  6: {
+  9: {
     name: `CHARDONNAY SERBATO`,
     imageUrl: "images/wines/6.png",
     description1: `En forfriskende og liflig vin.`,
@@ -72,7 +75,7 @@ const wines = {
     volume: `75 cl eller 37.5 cl`,
     systemLabel: "6",
   },
-  7: {
+  10: {
     name: `VIÑA TARAPACÁ`,
     imageUrl: "images/wines/7.png",
     description1: `Chardonnay er verdens mest berømte drue til hvidvin.
@@ -83,7 +86,7 @@ const wines = {
     volume: `75 cl eller 37.5 cl`,
     systemLabel: "7",
   },
-  8: {
+  11: {
     name: `Junmai Taru Sake`,
     imageUrl: "images/wines/8.png",
     description1: `Taru Sake is an authentic dry sake distinguished by the aroma of Yoshino cedar. Enjoy the refreshing aroma of Yoshino cedar and the crisp, clean finish of Taru Sake. Taru sake is usually enjoyed chilled and also delicious when served at room temperature or even slightly warmed (40～45℃)
@@ -94,7 +97,7 @@ const wines = {
     volume: `180 ml`,
     systemLabel: "8",
   },
-  9: {
+  12: {
     name: `FABIANO BARDOLINO CHIARETTO CLASSICO`,
     imageUrl: "images/wines/9.png",
     description1: `En smuk laksefarvet rosévin med en elegance der gør den velegnet til enhver god lejlighed. Drik den ung og nyd finessen med for eksempel en laksemad.
@@ -106,7 +109,7 @@ const wines = {
     volume: `75 cl`,
     systemLabel: "9",
   },
-  10: {
+  13: {
     name: `MONT MARCAL CAVA BRUT`,
     imageUrl: "images/wines/10.png",
     description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
@@ -121,7 +124,7 @@ const wines = {
     volume: `75 cl elle 37.5 cl`,
     systemLabel: "10",
   },
-  11: {
+  14: {
     name: `VIÑA TARAPACÁ SAUVIGNON BLANC KVARTFLASKE`,
     imageUrl: "images/wines/mini_white.png",
     description1: `I en tid hvor vi ønsker mere friske vine, med frisk frugt og elegance, er Sauvignon Blanc svaret på vores bønner. Denne vin er frisk og med god karakter.`,
@@ -133,7 +136,7 @@ const wines = {
     volume: `18.75 cl`,
     systemLabel: "11",
   },
-  12: {
+  15: {
     name: `VIÑA TARAPACÁ CABERNET SAUVIGNON KVARTFLASKE`,
     imageUrl: "images/wines/mini_red.png",
     description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
@@ -145,6 +148,7 @@ const wines = {
     volume: `18.75 cl`,
     systemLabel: "12",
   },
+  16: {}, // empty page
 };
 
-export default wines;
+export default pages;
