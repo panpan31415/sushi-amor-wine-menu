@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 50mm 78mm;
   position: relative;
+  z-index: 1;
 }
 .left-side {
   width: 50mm;
@@ -114,14 +115,4 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-}
-.water-mark {
-  position: absolute;
-  width: 40mm;
-  height: 40mm;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: -1;
-  opacity: 0.3;
 }

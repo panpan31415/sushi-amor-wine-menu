@@ -1,3 +1,4 @@
+import "./watermark.scss";
 const WaterMark = ({ styles }) => (
   <div
     className="water-mark"

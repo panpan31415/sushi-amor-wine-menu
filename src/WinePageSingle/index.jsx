@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss";
+import WaterMark from "./waterMark";
 
 let page = ({ wine }) => {
   const {
@@ -15,6 +16,7 @@ let page = ({ wine }) => {
   const contain = systemLabel === "8" ? { backgroundSize: "contain" } : {};
   return (
     <div className="wine-page-single">
+      <WaterMark />
       <div
         className="left-side"
         style={{
