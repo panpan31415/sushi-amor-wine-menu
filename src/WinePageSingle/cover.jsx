@@ -7,7 +7,7 @@ const Cover = () => (
     />
 
     <img alt="logo" src="images/wine_glasses.png" className="cover-glasses" />
-    <p className="cover-menu-text">SUSHI AMOR VIN MENU</p>
+    <p className="cover-menu-text">SUSHI AMOR VIN KORT</p>
   </div>
 );
 
