@@ -1,7 +1,8 @@
 import "./index.scss";
-
+import WaterMark from "./waterMark";
 const PriceList = () => (
   <div className="wine-page-single">
+    <WaterMark />
     <div className="price-list">
       <div className="price-list-item">
         <div

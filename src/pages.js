@@ -148,7 +148,7 @@ const pages = {
     volume: `18.75 cl`,
     systemLabel: "12",
   },
-  16: {}, // empty page
+  16: {}, // cover end
 };
 
 export default pages;

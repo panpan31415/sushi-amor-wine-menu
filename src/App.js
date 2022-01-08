@@ -5,23 +5,28 @@ import WinePageSingle from "./WinePageSingle";
 import Cover from "./WinePageSingle/cover";
 import PriceList from "./WinePageSingle/pricelist";
 import Empty from "./WinePageSingle/empty";
+import CoverEnd from "./WinePageSingle/coverEnd";
 class App extends React.Component {
   state = {
     pageIndex: 0,
   };
 
-  selectPage() {
-    if (this.state.pageIndex === 0) {
+  selectPage(pageIndex) {
+    if (pageIndex === 0) {
       return <Cover />;
     }
-    if (this.state.pageIndex === 1 || this.state.pageIndex === 15) {
+    if (pageIndex === 1) {
       return <Empty />;
     }
-    if (this.state.pageIndex === 2) {
+    if (pageIndex === 2) {
       return <PriceList />;
     }
-    return <WinePageSingle wine={pages[this.state.pageIndex + 1]} />;
+    if (pageIndex === 15) {
+      return <CoverEnd />;
+    }
+    return <WinePageSingle wine={pages[pageIndex + 1]} />;
   }
+
   render() {
     return (
       <div className="App">
@@ -36,7 +41,7 @@ class App extends React.Component {
           }>
           Previous
         </button>
-        {this.selectPage()}
+        {this.selectPage(this.state.pageIndex)}
         <button
           className="nav-btn"
           onClick={() =>
