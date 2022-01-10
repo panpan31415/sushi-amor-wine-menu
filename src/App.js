@@ -41,7 +41,10 @@ class App extends React.Component {
           }>
           Previous
         </button>
-        {this.selectPage(this.state.pageIndex)}
+        <div className="page-wrapper">
+          {this.selectPage(this.state.pageIndex)}
+        </div>
+
         <button
           className="nav-btn"
           onClick={() =>

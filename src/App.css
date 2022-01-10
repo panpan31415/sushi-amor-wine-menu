@@ -13,3 +13,11 @@
   border-radius: 30px;
   border: none;
 }
+.page-wrapper {
+  width: 154mm;
+  height: 216mm;
+  background-color: var(--amor-darkred);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
