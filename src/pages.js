@@ -3,125 +3,110 @@ const pages = {
   2: {}, // empty page
   3: {}, // price list
   4: {
-    name: `LÉGENDE "R" ROUGE`,
+    name: `BIOLOGIK TERRE DI CHIETI IGT PECORINO`,
     imageUrl: "images/wines/1.png",
-    description1: `En elegant og let drikkelig vin.`,
-    goodWith: `Grill, ost -
-    kraftig, ost - mild, asiatiske retter`,
-    description2: ` Dyb lilla farve med en charmerende duft af solbær, kirsebær og lidt
-    toastede noter fra fadlagringen. Smagen er fyldig og struktureret med
-    gode bløde tanniner og en frugtdomineret afslutning af smagen.`,
+    description1: `En god ledsager til fisk, bløde oste og risotto.`,
+    goodWith: `Fisk - mager, ost - mild, risotto`,
+    description2: `Vinen har en delikat lys, gul farve i glasset. Duften er frugtig med hints af blomster. Smagen af citrus og fersken er lækker og frisk. Eftersmagen er mineralsk og med en elegant syre.
+    `,
     alcohol: `13 %`,
     volume: `75 cl`,
     systemLabel: "1",
   },
   5: {
-    name: `LÉGENDE "R" BLANC`,
+    name: `CASTELLANI VILLA LUCIA PINOT GRIGIO`,
     imageUrl: "images/wines/2.png",
-    description1: `Frisk og aromatisk, let drikkelig hvidvin fra Bordeaux.En elegant og let drikkelig vin.`,
-    goodWith: `Aperitif, skaldyr, fisk - fede, fisk - mager, ost - kraftig`,
-    description2: `Smuk stråfarvet vin med en ekspressiv duft af citrus og modne pærer. Smagen har god fylde og en meget livlig frugtpalet med æbler, pærer og lyche. Frugtsyren giver en god baggrund og en vin der er velegnet til mad.
-    Velegnet til fiskeretter, salater og bløde oste.
-    `,
+    description1: `En fin ledsager til ”alt godt fra havet”, lyse kødretter og milde, bløde ostetyper.`,
+    goodWith: `Kylling og kalkun, fisk - mager, fisk - fede`,
+    description2: `Castellani, Pinot Grigio fremstår med en lys farve med grønne reflekser. Duften er meget frisk med en anelse lime. Smagen er velafbalanceret, tør med god fylde og megen frugt. Eftersmagen er medium fyldig med god balance.`,
     alcohol: `12 %`,
     volume: `75 cl`,
     systemLabel: "2",
   },
   6: {
-    name: `FABIANO VALPOLICELLA CLASSICO`,
+    name: `BIXIO PINOT GRIGIO ARCOLE DOC`,
     imageUrl: "images/wines/3.png",
-    description1: `Dejlig frisk Valpolicella med fed frugtstil. Dette er vinen som smager perfekt i det varme område omkring Gardasøen.
-    `,
-    goodWith: `Pasta og pizza, ost - mild, ost - kraftig`,
-    description2: `Flot rød med næsten lilla kant. Ekspressiv duft med jordbær, kirsebær og små brombær. Smagen er frisk med den unge frugt i smuk harmoni med skovens røde bær og en anelse krydderi i eftersmagen.
-    En herlig ledsager til lettere pastaretter og friske oste fra Italien.
-    `,
-    alcohol: `13.5 %`,
-    volume: `75 cl eller 37.5 cl`,
+    description1: `Nyd vinen som aperitif eller server den til fisk eller lyst kød.`,
+    goodWith: `Aperitif, fisk - fede, fisk - mager, kylling og kalkun, skaldyr, sushi`,
+    description2: `Vinen har en sart gul farve i glasset med gyldne reflekser. Duften er rig på blomster og frisk frugt med hints af grønne æbler og abrikos. I munden opleves vinen utrolig frisk med noter af akaciehonning. Der er god balance mellem syre og sødme og en behagelig eftersmag.`,
+    alcohol: `12.5 %`,
+    volume: `75 cl`,
     systemLabel: "3",
   },
   7: {
-    name: `MURÉ CALCAIRES JAUNES RIESLING`,
+    name: `ARMAS DE GUERRA BLANCO`,
     imageUrl: "images/wines/4.png",
-    description1: `Fra den sydlige ende af Alsace kommer denne mesterlige Riesling. Grundet det sydlige terroir har man her lidt mere fedme end man normalt finder i Alsace Riesling.`,
-    goodWith: `Fisk - fede, fisk - mager, skaldyr, sushi`,
-    description2: `Flot gylden i glasset med herlig ekspressiv duft af fersken og melon. Smagen har blød fylde og god struktur. Her er noter af citrus og tørret ananas i baggrunden.
-    `,
-    alcohol: `13 %`,
-    volume: `75 cl eller 37.5 cl`,
+    description1: `Vinen er en oplagt ledsager til grøntsager, fisk og pasta.`,
+    goodWith: `Salater, tapas, fisk - fede, fisk - mager`,
+    description2: `Vinens farve er hørgul med blege, gyldne strejf. I næsen opleves en aroma af modne hvide frugter, noter af blomster og hints af fennikel. Smagen er dejlig frisk og afsluttes med en intens og frugtig eftersmag.`,
+    alcohol: `12.5 %`,
+    volume: `75 cl`,
     systemLabel: "4",
   },
   8: {
-    name: `VIÑA TARAPACÁ RESERVA`,
+    name: `BABICH FAMILY ESTATES HEADWATERS ORGANIC PINOT NOIR`,
     imageUrl: "images/wines/5.png",
-    description1: `En virkelig interessant vin fra tophuset Viña Tarapacá.`,
-    goodWith: `Ost - kraftig, kraftige krydrede retter, oksekød`,
-    description2: `Vinen har en rubinrød farve med flot klarhed. Duften er stor og kraftfuld med strejf fra lagringen med eg og solmoden frugt. Smagen er fyldig med god balance mellem Cabernet Sauvignon-druens kraft og blødheden fra Merlot-druen.
-    `,
-    alcohol: `13.5 %`,
+    description1: `Headwaters Organic Pinot Noir kan med succes serveres til vildt eller laks.`,
+    goodWith: `Fisk - fede, vildt`,
+    description2: `Headwaters Organic Pinot Noir er flot rubinrød i glasset. Duften er blød og lækker, en snert parfumeret, hvorefter følger noter af kirsebær, jordbær og lidt røgede noter. Smagen er mediumfyldig med stor intensitet og cremet struktur. Der er masser af røde frugter og saftig syre. Lækker og vedholdende eftersmag.`,
+    alcohol: `13 %`,
     volume: `75 cl`,
     systemLabel: "5",
   },
   9: {
-    name: `CHARDONNAY SERBATO`,
+    name: `AVISPA TEMPRANILLO-BIOLÓGICO`,
     imageUrl: "images/wines/6.png",
-    description1: `En forfriskende og liflig vin.`,
-    goodWith: `Aperitif, pasta og pizza, kylling og kalkun, skaldyr, fisk - fede, fisk - mager`,
-    description2: `Batasiolo, Langhe Chardonnay DOC, Serbato, har en lys, stråfarve med gyldne reflekser. Smagen er tør, forfriskende med liflig frugt i den lange eftersmag, afsluttet af den frugtfyldte bouquet.
-
-    En dejlig ledsager til fisk, alt godt fra havet, lyse kødretter, ost og som aperitif.
-    `,
-    alcohol: `12.5 %`,
-    volume: `75 cl eller 37.5 cl`,
+    description1: `Server Avispa Tempranillo med blåskimmelost, grillet kød eller andre retter med kød`,
+    goodWith: `Grill, ost - kraftig, oksekød`,
+    description2: `Indbydende rød farve i glasset og en behagelig duft af lakrids og morbær. Smagen er frisk og frugtig med noter af mørke bær og urter og en vedholdende, fyldig eftersmag.`,
+    alcohol: `13 %`,
+    volume: `75 cl`,
     systemLabel: "6",
   },
   10: {
-    name: `VIÑA TARAPACÁ`,
+    name: `ARMAS DE GUERRA ROSÉ`,
     imageUrl: "images/wines/7.png",
-    description1: `Chardonnay er verdens mest berømte drue til hvidvin.
-    `,
-    goodWith: `Fisk - fede, kylling og kalkun`,
-    description2: `Denne herlige hvidvin har en klar gylden farve med grønne reflekser. Duften er typisk Chardonnay med masser af fedme og stor frugt fra de modne druer. Smagen er forførende blød med lækker fylde fra druerne. En lang og frugtfyldt eftersmag afslutter denne vin.`,
-    alcohol: `12.5 %`,
-    volume: `75 cl eller 37.5 cl`,
+    description1: `Server vinen til fisk, lyst kød, pasta eller pizza.`,
+    goodWith: `Fisk - fede, fisk - mager, kylling og kalkun, pasta og pizza`,
+    description2: `I glasset fremstår vinen med en sart, lys rød farve. Duften er præget af intense aromaer af roser og jasmin. I munden opleves en eksplosion af røde frugter, som fylder munden og efterlader en følelse af friskhed. Virkelig en interessant og liflig rosévin.`,
+    alcohol: `13 %`,
+    volume: `75 cl`,
     systemLabel: "7",
   },
   11: {
-    name: `Junmai Taru Sake`,
+    name: `TU NO HONJOZO SAKE BLACK`,
     imageUrl: "images/wines/8.png",
-    description1: `Taru Sake is an authentic dry sake distinguished by the aroma of Yoshino cedar. Enjoy the refreshing aroma of Yoshino cedar and the crisp, clean finish of Taru Sake. Taru sake is usually enjoyed chilled and also delicious when served at room temperature or even slightly warmed (40～45℃)
-    `,
-    goodWith: `sushi, ramen, tempura, and other Japanese foods`,
-
-    alcohol: `15 %`,
+    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
+    description2:
+      "Dette er en såkaldt Honjozo Sake, hvilket vil sige at der tilsættes en anelse alkohol under gæringen. Honjozo er en relativt let, aromatisk sake, med en smule bitterhed, der er meget nem at drikke. En mild og modnet smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet. ",
+    alcohol: `16 %`,
     volume: `180 ml`,
     systemLabel: "8",
   },
   12: {
-    name: `FABIANO BARDOLINO CHIARETTO CLASSICO`,
+    name: `TU NO JUNMAI SAKE WHITE `,
     imageUrl: "images/wines/9.png",
-    description1: `En smuk laksefarvet rosévin med en elegance der gør den velegnet til enhver god lejlighed. Drik den ung og nyd finessen med for eksempel en laksemad.
-    `,
-    goodWith: `Fisk - fede, ost - mild, skaldyr`,
-    description2: `Bardolino Chiaretto er flot laksefarvet med en duft af rosenblade og friskplukkede hindbær. Smagen er domineret af en frisk frugtsyre og lang intens smag med noter af friske røde bær.
-    `,
-    alcohol: `12 %`,
-    volume: `75 cl`,
+    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
+    description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet, men vi anbefaler at servere denne sake enten 'Jo-on' (20 grader) eller 'Suzuhie' (15 grader).`,
+    alcohol: `15 %`,
+    volume: `180 ml`,
     systemLabel: "9",
   },
   13: {
-    name: `MONT MARCAL CAVA BRUT`,
+    name: `MABOROSHI GINJO SEIKYO`,
     imageUrl: "images/wines/10.png",
-    description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
-    `,
-    goodWith: `Aperitif, skaldyr, fisk - fede, fisk - mager
-    `,
-    description2: `Blank og klar i glasset med smukke små bobler. Duften er præget af grønne noter med græs, citrus og æbler. Smagen er tør med frisk frugt og gode bløde bobler.
+    description1: `Denne sake er perfekt for dem der er nye i sake verdenen - den er mild og letdrikkelig, men har stadig masser af smag at byde på.`,
+    goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
+    description2: `Den har en let sødlig smag med frugtige og blomstrede noter, flot umami og en let, balanceret syre. Risen af varianten Shinsenbon og er poleret 58%.
 
-    En herlig aperitif, eller som ledsager til lette fiskeretter og skaldyr.
+    Perfekt til sushi-aften, fest, værtindegave eller bare til at nyde med stil i haven en varm sommerdag. Denne sake favner bredt, og den smukke flaske og det lille tilhørende glas, gør den til en helt særlig oplevelse.
+    
+    Serveres bedst ved stuetemperatur eller afkølet.
     `,
-    alcohol: `11.5 %`,
-    volume: `75 cl elle 37.5 cl`,
+    alcohol: `15.4 %`,
+    volume: `180 ml`,
     systemLabel: "10",
   },
   14: {
