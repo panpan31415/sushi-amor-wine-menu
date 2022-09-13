@@ -1,0 +1,19 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(40, 44, 52);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 100px;
+  border: 2px solid white;
+  color: white;
+  margin: 50px;
+  cursor: pointer;
+}

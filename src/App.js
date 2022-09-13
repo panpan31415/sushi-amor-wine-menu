@@ -1,61 +1,45 @@
-import React from "react";
-import "./App.css";
-import pages from "./pages";
-import WinePageSingle from "./WinePageSingle";
-import Cover from "./WinePageSingle/cover";
-import PriceList from "./WinePageSingle/pricelist";
-import Empty from "./WinePageSingle/empty";
-import CoverEnd from "./WinePageSingle/coverEnd";
-class App extends React.Component {
-  state = {
-    pageIndex: 0,
+import WinePaperMenu from "./WinePaperMenu";
+import { useState } from "react";
+import "./App.scss";
+
+function Home({ setRoute }) {
+  return (
+    <div>
+      <button
+        className="btn"
+        onClick={() => {
+          setRoute("paper_version");
+        }}>
+        Paper Version
+      </button>
+      <button
+        className="btn"
+        onClick={() => {
+          setRoute("digital_version");
+        }}>
+        Digital Version
+      </button>
+    </div>
+  );
+}
+
+function App() {
+  const [route, setRoute] = useState("home");
+  const selectRoute = () => {
+    switch (route) {
+      case "home": {
+        return <Home setRoute={setRoute} />;
+      }
+      case "paper_version": {
+        return <WinePaperMenu setRoute={setRoute} />;
+      }
+      default: {
+        return <Home setRoute={setRoute} />;
+      }
+    }
   };
 
-  selectPage(pageIndex) {
-    if (pageIndex === 0) {
-      return <Cover />;
-    }
-    if (pageIndex === 1) {
-      return <Empty />;
-    }
-    if (pageIndex === 2) {
-      return <PriceList />;
-    }
-    if (pageIndex === 15) {
-      return <CoverEnd />;
-    }
-    return <WinePageSingle wine={pages[pageIndex + 1]} />;
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <button
-          className="nav-btn"
-          onClick={() =>
-            this.setState({
-              pageIndex:
-                (this.state.pageIndex - 1 + Object.keys(pages).length) %
-                Object.keys(pages).length,
-            })
-          }>
-          Previous
-        </button>
-        {this.selectPage(this.state.pageIndex)}
-        <button
-          className="nav-btn"
-          onClick={() =>
-            this.setState({
-              pageIndex:
-                (this.state.pageIndex + 1 + Object.keys(pages).length) %
-                Object.keys(pages).length,
-            })
-          }>
-          Next
-        </button>
-      </div>
-    );
-  }
+  return <div className="App">{selectRoute()}</div>;
 }
 
 export default App;

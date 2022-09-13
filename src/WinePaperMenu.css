@@ -1,4 +1,4 @@
-.App {
+.WinePaperMenu {
   width: 100vw;
   height: 100vh;
   background-color: rgb(40, 44, 52);
@@ -12,4 +12,5 @@
   height: 40px;
   border-radius: 30px;
   border: none;
+  background: "white";
 }
