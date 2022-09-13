@@ -40,10 +40,7 @@ let page = ({ wine }) => {
           <span className="description--title">INDHOLD</span> {volume}
         </p>
         <br />
-        <p>
-          <span className="description--title">Pris: </span>tjek vores digitale
-          meun eller spørg en tjener
-        </p>
+
         <div className="system-label">{systemLabel}</div>
       </div>
     </div>
