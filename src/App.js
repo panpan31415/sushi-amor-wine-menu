@@ -1,6 +1,7 @@
 import WinePaperMenu from "./WinePaperMenu";
 import { useState } from "react";
 import "./App.scss";
+import WineDigitalMenu from "./WineDgitalMenu";
 
 function Home({ setRoute }) {
   return (
@@ -33,8 +34,11 @@ function App() {
       case "paper_version": {
         return <WinePaperMenu setRoute={setRoute} />;
       }
+      case "digital_version": {
+        return <WineDigitalMenu setRoute={setRoute} />;
+      }
       default: {
-        return <Home setRoute={setRoute} />;
+        return <WineDigitalMenu setRoute={setRoute} />;
       }
     }
   };
