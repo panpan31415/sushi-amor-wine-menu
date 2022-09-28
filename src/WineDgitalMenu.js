@@ -1,21 +1,7 @@
 import "./WineDigitalMenu.scss";
-import pages from "./pages";
 import { useState } from "react";
+import wines from "./wines";
 function WineDigitalMenu({ setRoute }) {
-  const wines = [
-    pages[4],
-    pages[5],
-    pages[6],
-    pages[7],
-    pages[8],
-    pages[9],
-    pages[10],
-    pages[11],
-    pages[12],
-    pages[13],
-    pages[14],
-    pages[15],
-  ];
   const [page, setPage] = useState(0);
 
   const next = () => {
