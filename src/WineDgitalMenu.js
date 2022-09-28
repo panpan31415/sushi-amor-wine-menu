@@ -1,6 +1,7 @@
 import "./WineDigitalMenu.scss";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import wines from "./wines";
+import html2canvas from "html2canvas";
 function WineDigitalMenu({ setRoute }) {
   const [page, setPage] = useState(0);
 
@@ -12,12 +13,23 @@ function WineDigitalMenu({ setRoute }) {
     setPage((page - 1) % wines.length);
   };
 
+  const print = useRef();
+
+  const capture = async (ref, page) => {
+    const canvas = await html2canvas(ref);
+    const img = canvas.toDataURL("image/png");
+    const link = document.createElement("a");
+    link.download = page + ".png";
+    link.href = img;
+    link.click();
+  };
+
   return (
     <div className="WineDigitalMenu">
       <button className="btn" onClick={previous}>
         previous
       </button>
-      <div className="tablet-screen">
+      <div className="tablet-screen" ref={print}>
         <div className="safe-area">
           <div
             className="wine-img"
@@ -63,6 +75,19 @@ function WineDigitalMenu({ setRoute }) {
           setRoute("home");
         }}>
         Home
+      </button>
+      <button
+        className="btn"
+        onClick={() => {
+          capture(print.current, wines[page].systemLabel);
+        }}
+        style={{
+          position: "absolute",
+          left: "20px",
+          bottom: "20px",
+          width: "180px",
+        }}>
+        Download Page: {wines[page].systemLabel}
       </button>
     </div>
   );
