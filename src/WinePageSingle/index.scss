@@ -78,7 +78,7 @@
 .price-list {
   width: 128mm;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 2mm;
 }
@@ -95,13 +95,13 @@
   position: relative;
   label {
     position: absolute;
-    top: 20%;
-    left: 20%;
-    margin-top: -7.5mm;
-    margin-left: -7.5mm;
-    width: 15mm;
-    height: 15mm;
-    font-size: 10mm;
+    top: 10%;
+    left: 10%;
+    margin-top: 0mm;
+    margin-left: 0mm;
+    width: 7mm;
+    height: 7mm;
+    font-size: 4mm;
     display: flex;
     justify-content: center;
     align-items: center;

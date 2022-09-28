@@ -21,7 +21,7 @@ class WinePaperMenu extends React.Component {
     if (pageIndex === 2) {
       return <PriceList />;
     }
-    if (pageIndex === 15) {
+    if (pageIndex === 19) {
       return <CoverEnd />;
     }
     return <WinePageSingle wine={pages[pageIndex + 1]} />;
@@ -63,6 +63,15 @@ class WinePaperMenu extends React.Component {
           onClick={() => this.props.setRoute("home")}>
           Back
         </button>
+        <div
+          className="nav-btn"
+          style={{
+            position: "absolute",
+            left: "20px",
+            bottom: "20px",
+          }}>
+          Page: {this.state.pageIndex}
+        </div>
       </div>
     );
   }
