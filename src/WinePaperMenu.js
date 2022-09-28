@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createRef } from "react";
 import "./WinePaperMenu.css";
 import pages from "./pages";
 import WinePageSingle from "./WinePageSingle";
@@ -6,10 +6,22 @@ import Cover from "./WinePageSingle/cover";
 import PriceList from "./WinePageSingle/pricelist";
 import Empty from "./WinePageSingle/empty";
 import CoverEnd from "./WinePageSingle/coverEnd";
+import html2canvas from "html2canvas";
+
 class WinePaperMenu extends React.Component {
   state = {
     pageIndex: 0,
   };
+  printRef = createRef();
+
+  async capture(ref, page) {
+    const canvas = await html2canvas(ref);
+    const img = canvas.toDataURL("image/png");
+    var link = document.createElement("a");
+    link.download = page + ".png";
+    link.href = img;
+    link.click();
+  }
 
   selectPage(pageIndex) {
     if (pageIndex === 0) {
@@ -41,7 +53,17 @@ class WinePaperMenu extends React.Component {
           }>
           Previous
         </button>
-        {this.selectPage(this.state.pageIndex)}
+        <div
+          id="print"
+          ref={this.printRef}
+          style={{ padding: "3mm", backgroundColor: "var(--amor-darkred)" }}>
+          <div
+            style={{
+              border: "1px dashed white",
+            }}>
+            {this.selectPage(this.state.pageIndex)}
+          </div>
+        </div>
         <button
           className="nav-btn"
           onClick={() =>
@@ -63,15 +85,19 @@ class WinePaperMenu extends React.Component {
           onClick={() => this.props.setRoute("home")}>
           Back
         </button>
-        <div
+        <button
           className="nav-btn"
+          onClick={() => {
+            this.capture(this.printRef.current, this.state.pageIndex);
+          }}
           style={{
             position: "absolute",
             left: "20px",
             bottom: "20px",
+            width: "180px",
           }}>
-          Page: {this.state.pageIndex}
-        </div>
+          Download Page: {this.state.pageIndex}
+        </button>
       </div>
     );
   }
