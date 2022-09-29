@@ -5,7 +5,7 @@ const pages = {
   4: {
     name: `BIOLOGIK TERRE DI CHIETI IGT PECORINO`,
     imageUrl: "images/wines/1.png",
-    description1: `En god ledsager til fisk, bløde oste og risotto.`,
+    description1: `Frugtig og yderst smagsfyldt vin med mineralske og elegante noter.`,
     goodWith: `Fisk - mager, ost - mild, risotto.`,
     description2: `Vinen har en delikat lys, gul farve i glasset. Duften er frugtig med hints af blomster. Smagen af citrus og fersken er lækker og frisk. Eftersmagen er mineralsk og med en elegant syre.
     `,
