@@ -16,7 +16,7 @@ class WinePaperMenu extends React.Component {
 
   async capture(ref, page) {
     const canvas = await html2canvas(ref);
-    const img = canvas.toDataURL("image/png");
+    const img = canvas.toDataURL("image/png", 1);
     var link = document.createElement("a");
     link.download = page + ".png";
     link.href = img;
