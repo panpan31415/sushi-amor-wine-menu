@@ -39,22 +39,24 @@ function WineDigitalMenu({ setRoute }) {
           />
           <div className="wine-details">
             <p className="name">{wines[page].name}</p>
-            <p className="description1 italic">{wines[page].description1}</p>
+            <hr />
+            <p className="description1">{wines[page].description1}</p>
             <p className="goodWith">
-              <span>godt med: </span>
+              <span className="title">godt med: </span>
               {wines[page].goodWith}
             </p>
 
             <p className="description2">
-              <span>beskrivelse: </span>
+              <span className="title">beskrivelse: </span>
+
               {wines[page].description2}
             </p>
             <p className="alcohol">
-              <span>alkohol: </span>
+              <span className="title">alkohol: </span>
               {wines[page].alcohol}
             </p>
             <p className="volume">
-              <span>indhold: </span> {wines[page].volume}
+              <span className="title">indhold: </span> {wines[page].volume}
             </p>
             <div className="system-label">{wines[page].systemLabel}</div>
           </div>
