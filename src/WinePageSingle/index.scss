@@ -3,9 +3,9 @@
   height: 210mm;
   background-color: var(--amor-darkred);
   overflow: hidden;
-  padding: 10mm;
+  padding: 5mm;
   display: grid;
-  grid-template-columns: 50mm 78mm;
+  grid-template-columns: 1fr 3fr;
   position: relative;
   z-index: 1;
 }
@@ -17,30 +17,37 @@
   background-repeat: no-repeat;
 }
 .right-side {
+  background-color: rgba(black, 0.5);
   padding: 5mm;
-  padding-left: 10mm;
+ 
   color: #fff;
   line-height: 7mm;
   font-weight: 100;
+  font-weight: 400;
 }
 .name {
-  font-size: 8mm;
+  font-size: 5mm;
   color: #fff;
 }
-.description {
-  margin-top: 10mm;
-  &--title {
-    font-weight: 400;
-  }
+hr {
+  margin-bottom: 5mm;
 }
-.review {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+.description1 {
+  margin-bottom: 5mm;
+  font-size: 3.5mm;
+}
+.description2 {
+  margin-bottom: 5mm;
+  font-size: 3.5mm;
+}
+.goodWith {
+  margin-bottom: 5mm;
+  font-size: 3.5mm;
 }
 .system-label {
   position: absolute;
-  right: 5mm;
-  bottom: 5mm;
+  right: 10mm;
+  bottom: 10mm;
   background-color: #fff;
   color: var(--amor-darkred);
   width: 15mm;
@@ -65,7 +72,7 @@
 }
 
 .cover-menu-text {
-  font-size: 20mm;
+  font-size: 15mm;
   color: #fff;
   position: absolute;
   text-align: right;
@@ -82,7 +89,6 @@
 }
 .price-list-item {
   overflow: hidden;
-  // border: 1px solid white;
   display: grid;
   grid-column: 1fr;
   grid-template-rows: 9fr 1fr 1fr;

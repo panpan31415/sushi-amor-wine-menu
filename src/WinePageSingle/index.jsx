@@ -13,7 +13,6 @@ let page = ({ wine }) => {
     volume,
     systemLabel,
   } = wine;
-  const contain = systemLabel === "8" ? { backgroundSize: "contain" } : {};
   return (
     <div className="wine-page-single">
       <WaterMark />
@@ -21,26 +20,24 @@ let page = ({ wine }) => {
         className="left-side"
         style={{
           backgroundImage: `url(${imageUrl})`,
-          ...contain,
+          backgroundSize: "contain",
         }}></div>
       <div className="right-side">
         <h1 className="name"> {name}</h1>
         <hr />
-        <p className="description">{description1}</p>
-        <p>
+        <p className="description1">{description1}</p>
+        <p className="goodWith">
           <span className="description--title">God til:</span> {goodWith}
         </p>
-        <br />
-        <p>{description2}</p>
-        <br />
+
+        <p className="description2">{description2}</p>
+
         <p>
           <span className="description--title">ALKOHOL:</span> {alcohol}
         </p>
         <p>
           <span className="description--title">INDHOLD</span> {volume}
         </p>
-        <br />
-
         <div className="system-label">{systemLabel}</div>
       </div>
     </div>
