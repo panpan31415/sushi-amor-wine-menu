@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+.WineDigitalMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(40, 44, 52);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 100px;
+  border: 2px solid white;
+  color: white;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.tablet-screen {
+  width: 20cm;
+  height: 12cm;
+  background-color: var(--amor-darkred);
+  .safe-area {
+    padding: 0.5cm;
+    height: 9.7cm;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    color: "white";
+    .wine-img {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .wine-details {
+      position: relative;
+      height: 100%;
+      .italic {
+        font-style: italic;
+      }
+      p {
+        margin-top: 10px;
+        font-family: "Open Sans";
+        font-weight: 300;
+      }
+      span {
+        font-weight: 500;
+      }
+      color: white;
+
+      font-size: 1rem;
+      .name {
+        font-size: 1.3rem;
+      }
+      .goodWith {
+        font-size: 1.1rem;
+      }
+      .description1 {
+        font-size: 1.2rem;
+      }
+      .description2 {
+        font-size: 0.9rem;
+      }
+      .alcohol {
+        font-size: 1.1rem;
+      }
+      .volume {
+        font-size: 1.1rem;
+      }
+      .system-label {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 55px;
+        height: 55px;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .bottom-area {
+    height: 2.3cm;
+  }
+}
