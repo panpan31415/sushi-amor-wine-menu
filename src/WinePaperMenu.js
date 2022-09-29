@@ -57,12 +57,7 @@ class WinePaperMenu extends React.Component {
           id="print"
           ref={this.printRef}
           style={{ padding: "3mm", backgroundColor: "var(--amor-darkred)" }}>
-          <div
-            style={{
-              border: "1px dashed white",
-            }}>
-            {this.selectPage(this.state.pageIndex)}
-          </div>
+          <div>{this.selectPage(this.state.pageIndex)}</div>
         </div>
         <button
           className="nav-btn"
