@@ -9,16 +9,23 @@ function Home({ setRoute }) {
       <button
         className="btn"
         onClick={() => {
-          setRoute("paper_version");
+          setRoute("wine_paper_version");
         }}>
-        Paper Version
+        Wine Menu Paper Version
       </button>
       <button
         className="btn"
         onClick={() => {
-          setRoute("digital_version");
+          setRoute("wine_digital_version");
         }}>
-        Digital Version
+        Wine Menu Digital Version
+      </button>
+      <button
+        className="btn"
+        onClick={() => {
+          setRoute("tea_digital_version");
+        }}>
+        Tea Menu Digital Version
       </button>
     </div>
   );
@@ -31,11 +38,15 @@ function App() {
       case "home": {
         return <Home setRoute={setRoute} />;
       }
-      case "paper_version": {
+      case "wine_paper_version": {
         return <WinePaperMenu setRoute={setRoute} />;
       }
-      case "digital_version": {
+      case "wine_digital_version": {
         return <WineDigitalMenu setRoute={setRoute} />;
+      }
+      case "tea_digital_version": {
+        return null;
+        // return <TeaDigitalMenu />;
       }
       default: {
         return <WineDigitalMenu setRoute={setRoute} />;
