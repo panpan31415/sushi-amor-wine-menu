@@ -40,37 +40,20 @@
     .wine-details {
       position: relative;
       height: 100%;
+      font-weight: 400;
       .italic {
         font-style: italic;
       }
       p {
         margin-top: 10px;
-        font-weight: 300;
+        font-weight: 600;
       }
-      span {
-        font-weight: 500;
+      .title {
+        text-transform: uppercase;
+        font-weight: 700;
       }
       color: white;
 
-      font-size: 1rem;
-      .name {
-        font-size: 1.3rem;
-      }
-      .goodWith {
-        font-size: 1.1rem;
-      }
-      .description1 {
-        font-size: 1.2rem;
-      }
-      .description2 {
-        font-size: 0.9rem;
-      }
-      .alcohol {
-        font-size: 1.1rem;
-      }
-      .volume {
-        font-size: 1.1rem;
-      }
       .system-label {
         position: absolute;
         bottom: 10px;
