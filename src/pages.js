@@ -6,7 +6,7 @@ const pages = {
     name: `BIOLOGIK TERRE DI CHIETI IGT PECORINO`,
     imageUrl: "images/wines/1.png",
     description1: `En god ledsager til fisk, bløde oste og risotto.`,
-    goodWith: `Fisk - mager, ost - mild, risotto`,
+    goodWith: `Fisk - mager, ost - mild, risotto.`,
     description2: `Vinen har en delikat lys, gul farve i glasset. Duften er frugtig med hints af blomster. Smagen af citrus og fersken er lækker og frisk. Eftersmagen er mineralsk og med en elegant syre.
     `,
     alcohol: `13 %`,
@@ -18,7 +18,7 @@ const pages = {
     name: `CASTELLANI VILLA LUCIA PINOT GRIGIO`,
     imageUrl: "images/wines/2.png",
     description1: `En fin ledsager til ”alt godt fra havet”, lyse kødretter og milde, bløde ostetyper.`,
-    goodWith: `Kylling og kalkun, fisk - mager, fisk - fede`,
+    goodWith: `Kylling og kalkun, fisk - mager, fisk - fede.`,
     description2: `Castellani, Pinot Grigio fremstår med en lys farve med grønne reflekser. Duften er meget frisk med en anelse lime. Smagen er velafbalanceret, tør med god fylde og megen frugt. Eftersmagen er medium fyldig med god balance.`,
     alcohol: `12 %`,
     volume: `75 cl`,
@@ -29,7 +29,7 @@ const pages = {
     name: `BIXIO PINOT GRIGIO ARCOLE DOC`,
     imageUrl: "images/wines/3.png",
     description1: `Nyd vinen som aperitif eller server den til fisk eller lyst kød.`,
-    goodWith: `Aperitif, fisk - fede, fisk - mager, kylling og kalkun, skaldyr, sushi`,
+    goodWith: `Aperitif, fisk - fede, fisk - mager, kylling og kalkun, skaldyr, sushi.`,
     description2: `Vinen har en sart gul farve i glasset med gyldne reflekser. Duften er rig på blomster og frisk frugt med hints af grønne æbler og abrikos. I munden opleves vinen utrolig frisk med noter af akaciehonning. Der er god balance mellem syre og sødme og en behagelig eftersmag.`,
     alcohol: `12.5 %`,
     volume: `75 cl`,
@@ -61,8 +61,8 @@ const pages = {
   9: {
     name: `AVISPA TEMPRANILLO-BIOLÓGICO`,
     imageUrl: "images/wines/6.png",
-    description1: `Server Avispa Tempranillo med blåskimmelost, grillet kød eller andre retter med kød`,
-    goodWith: `Grill, ost - kraftig, oksekød`,
+    description1: `Server Avispa Tempranillo med blåskimmelost, grillet kød eller andre retter med kød.`,
+    goodWith: `Grill, ost - kraftig, oksekød.`,
     description2: `Indbydende rød farve i glasset og en behagelig duft af lakrids og morbær. Smagen er frisk og frugtig med noter af mørke bær og urter og en vedholdende, fyldig eftersmag.`,
     alcohol: `13 %`,
     volume: `75 cl`,
@@ -73,7 +73,7 @@ const pages = {
     name: `AVISPA BLANCO BIOLÓGICO ØKOLOGISK`,
     imageUrl: "images/wines/7.png",
     description1: `orfriskende og velbalanceret hvidvin med en lang eftersmag.`,
-    goodWith: `Fisk - mager, pasta og pizza, skaldyr, salater, suppe, sushi, tapas`,
+    goodWith: `Fisk - mager, pasta og pizza, skaldyr, salater, suppe, sushi, tapas.`,
     description2: `Denne forfriskende hvidvin har en sart, lys gul farve med grønlige strejf. Duften er frisk med noter af græs og frugt. Smagen er velbalanceret med friske noter af nyslået græs og grønne æbler. Eftersmagen er let bitter og vedholdende.`,
     alcohol: `11.5 %`,
     volume: `75 cl`,
@@ -84,7 +84,7 @@ const pages = {
     name: `ARMAS DE GUERRA ROSÉ`,
     imageUrl: "images/wines/8.png",
     description1: `Server vinen til fisk, lyst kød, pasta eller pizza.`,
-    goodWith: `Fisk - fede, fisk - mager, kylling og kalkun, pasta og pizza`,
+    goodWith: `Fisk - fede, fisk - mager, kylling og kalkun, pasta og pizza.`,
     description2: `I glasset fremstår vinen med en sart, lys rød farve. Duften er præget af intense aromaer af roser og jasmin. I munden opleves en eksplosion af røde frugter, som fylder munden og efterlader en følelse af friskhed. Virkelig en interessant og liflig rosévin.`,
     alcohol: `13 %`,
     volume: `75 cl`,
@@ -107,7 +107,7 @@ const pages = {
     name: `TU NO JUNMAI SAKE WHITE `,
     imageUrl: "images/wines/10.png",
     description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
-    goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
+    goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
     description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet, men vi anbefaler at servere denne sake enten 'Jo-on' (20 grader) eller 'Suzuhie' (15 grader).`,
     alcohol: `15 %`,
     volume: `180 ml`,
@@ -118,7 +118,7 @@ const pages = {
     name: `MABOROSHI GINJO SEIKYO`,
     imageUrl: "images/wines/11.png",
     description1: `Denne sake er perfekt for dem der er nye i sake verdenen - den er mild og letdrikkelig, men har stadig masser af smag at byde på.`,
-    goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
+    goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
     description2: `Den har en let sødlig smag med frugtige og blomstrede noter, flot umami og en let, balanceret syre. Risen af varianten Shinsenbon og er poleret 58%.
 
     Perfekt til sushi-aften, fest, værtindegave eller bare til at nyde med stil i haven en varm sommerdag. Denne sake favner bredt, og den smukke flaske og det lille tilhørende glas, gør den til en helt særlig oplevelse.
@@ -148,7 +148,7 @@ const pages = {
     imageUrl: "images/wines/mini_red.png",
     description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
     `,
-    goodWith: `Oksekød, pasta og pizza, ost - kraftig, ost - mild`,
+    goodWith: `Oksekød, pasta og pizza, ost - kraftig, ost - mild.`,
     description2: `Vina Tarapaca Cabernet Sauvignon er dyb rubinrød i glasset med en duft af modne solbær og kirsebær samt noter af vanilje Vinen er medium fyldig med en blød smag med god tæt frugt og modne tanniner. 
     `,
     alcohol: `13 %`,
@@ -172,7 +172,7 @@ const pages = {
     name: `DAISEKKEI GREEN SAKE`,
     imageUrl: "images/wines/15.png",
     description1: `Japansk sake i flot lille grøn flaske med smukke bjerglandskaber på.`,
-    goodWith: `sushi og sashimi`,
+    goodWith: `sushi og sashimi.`,
     description2: `En fantastisk sake, fra et mikrobryggeri i Nagano. Saken passer godt til de milde nuancer i sushi og sashimi og har en flot balance mellem sødme og tørhed. Den lille grønne flaske med skruelåg gør den perfekt som detalje på sushi-bordet eller til at tage med på skovturen el.lign. 
     `,
     alcohol: `15 %`,
@@ -184,10 +184,8 @@ const pages = {
     name: `SAYURI NIGORI SAKE PINK`,
     imageUrl: "images/wines/16.png",
     description1: `Hakutsuru Sayuri er en såkaldt 'Nigori' Sake - en grovfiltreret Sake der byder på et mælkehvidt udseende og en fyldig, cremet smag og mundfornemmelse.`,
-    goodWith: `sushi og sashimi`,
+    goodWith: `ette kødretter, fisk og sushi, men er også helt fantastisk til spicy retter.`,
     description2: `Sayuri bør serveres afkølet mellem 5 og 12 grader Celsius, for at få det bedste udtryk frem. Her får man sødmen, friskheden og den milde, cremede smag. Opvarmet vil den præsentere sig mere bitter og næsten harsk i sit udtryk, så det anbefaler vi ikke.
-
-    Den parres godt med lette kødretter, fisk og sushi, men er også helt fantastisk til spicy retter, hvor den cremede ris-tekstur sætter en lille dæmper på styrken fra chili og lader umamien i retten træde frem på scenen.
     `,
     alcohol: `12.5 %`,
     volume: `300 ml`,
