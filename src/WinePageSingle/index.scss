@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 3fr;
   position: relative;
   z-index: 1;
+  gap: 3mm;
 }
 .left-side {
   width: 50mm;
@@ -19,7 +20,6 @@
 .right-side {
   background-color: rgba(black, 0.5);
   padding: 5mm;
- 
   color: #fff;
   line-height: 7mm;
   font-weight: 100;
@@ -81,7 +81,7 @@ hr {
   width: 60mm;
 }
 .price-list {
-  width: 128mm;
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -89,13 +89,14 @@ hr {
 }
 .price-list-item {
   overflow: hidden;
+  padding: 1mm;
   display: grid;
   grid-column: 1fr;
-  grid-template-rows: 9fr 1fr 1fr;
+  grid-template-rows: 9fr 1fr;
   justify-content: center;
+  gap: 1mm;
   color: #fff;
   font-size: 3mm;
-  line-height: 4mm;
   position: relative;
   label {
     position: absolute;
