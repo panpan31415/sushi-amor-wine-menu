@@ -10,7 +10,7 @@ function WineDigitalMenu({ setRoute }) {
   };
 
   const previous = () => {
-    setPage((page - 1) % wines.length);
+    setPage((page - 1 + wines.length) % wines.length);
   };
 
   const print = useRef();
