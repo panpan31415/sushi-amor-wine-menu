@@ -17,19 +17,17 @@ function TeaItemPage({ tea }) {
       <div className="right">
         <p>
           <span className="title">navn: </span>
-
           {tea.name}
         </p>
         <p>
           <span className="title">ingrediens: </span>
-
           {tea.ingredient}
         </p>
         <p>
           <span className="title">beskrivelse: </span>
-
           {tea.description}
         </p>
+        <p>gratis påfyldning af varmt vand</p>
       </div>
       <div className="system-label">{tea.systemLabel}</div>
     </div>
@@ -45,7 +43,7 @@ function TeaDigitalMenu({ setRoute }) {
   };
 
   const previous = () => {
-    setPage((page - 1) % teasArray.length);
+    setPage((page - 1 + teasArray.length) % teasArray.length);
   };
 
   const print = useRef();
