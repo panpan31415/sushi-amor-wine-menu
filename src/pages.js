@@ -52,7 +52,7 @@ const pages = {
     imageUrl: "images/wines/5.png",
     description1: `Headwaters Organic Pinot Noir kan med succes serveres til vildt eller laks.`,
     goodWith: `Fisk - fede, vildt`,
-    description2: `Headwaters Organic Pinot Noir er flot rubinrød i glasset. Duften er blød og lækker, en snert parfumeret, hvorefter følger noter af kirsebær, jordbær og lidt røgede noter. Smagen er mediumfyldig med stor intensitet og cremet struktur. Der er masser af røde frugter og saftig syre. Lækker og vedholdende eftersmag.`,
+    description2: `Headwaters Organic Pinot Noir er flot rubinrød i glasset. Duften er blød og lækker, en snert parfumeret, hvorefter følger noter af kirsebær, jordbær og lidt røgede noter. Smagen er mediumfyldig med stor intensitet og cremet struktur.`,
     alcohol: `13 %`,
     volume: `75 cl`,
     systemLabel: "5",
@@ -108,7 +108,7 @@ const pages = {
     imageUrl: "images/wines/10.png",
     description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
-    description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet, men vi anbefaler at servere denne sake enten 'Jo-on' (20 grader) eller 'Suzuhie' (15 grader).`,
+    description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet.`,
     alcohol: `15 %`,
     volume: `180 ml`,
     systemLabel: "10",
@@ -120,9 +120,7 @@ const pages = {
     description1: `Denne sake er perfekt for dem der er nye i sake verdenen - den er mild og letdrikkelig, men har stadig masser af smag at byde på.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
     description2: `Den har en let sødlig smag med frugtige og blomstrede noter, flot umami og en let, balanceret syre. Risen af varianten Shinsenbon og er poleret 58%.
-
-    Perfekt til sushi-aften, fest, værtindegave eller bare til at nyde med stil i haven en varm sommerdag. Denne sake favner bredt, og den smukke flaske og det lille tilhørende glas, gør den til en helt særlig oplevelse.
-    
+    Denne sake favner bredt, og den smukke flaske og det lille tilhørende glas, gør den til en helt særlig oplevelse.
     Serveres bedst ved stuetemperatur eller afkølet.
     `,
     alcohol: `15.4 %`,
@@ -159,8 +157,8 @@ const pages = {
   17: {
     name: `MASUMI KARAKUCHI GOLD SAKE`,
     imageUrl: "images/wines/14.png",
-    description1: `Karakuchi Gold er en sake der har enormt meget at byde på. Den er robust og smagfuld, men formår på samme tid at beholde et let og udtryk og en mild aroma. `,
-    goodWith: `grillet fisk, yakitori, teriyaki, sukiyaki og nabe hotpots - med andre ord krydret, varm mad med robuste og salte smage.
+    description1: `Den er robust og smagfuld, men formår på samme tid at beholde et let og udtryk og en mild aroma. `,
+    goodWith: `grillet fisk, yakitori, teriyaki, sukiyaki og nabe hotpots.
     `,
     description2: `Karakuchi Gold er en af bryggernes favoritter hos Masumi, da den går perfekt til de mere solide og krydrede japanske retter, der er skønne efter en lang dags hårdt arbejde i bryggeriet.`,
     alcohol: `13.4 %`,
@@ -184,7 +182,7 @@ const pages = {
     name: `SAYURI NIGORI SAKE PINK`,
     imageUrl: "images/wines/16.png",
     description1: `Hakutsuru Sayuri er en såkaldt 'Nigori' Sake - en grovfiltreret Sake der byder på et mælkehvidt udseende og en fyldig, cremet smag og mundfornemmelse.`,
-    goodWith: `ette kødretter, fisk og sushi, men er også helt fantastisk til spicy retter.`,
+    goodWith: `ette kødretter, fisk og sushi,også spicy retter.`,
     description2: `Sayuri bør serveres afkølet mellem 5 og 12 grader Celsius, for at få det bedste udtryk frem. Her får man sødmen, friskheden og den milde, cremede smag. Opvarmet vil den præsentere sig mere bitter og næsten harsk i sit udtryk, så det anbefaler vi ikke.
     `,
     alcohol: `12.5 %`,
