@@ -44,10 +44,16 @@ hr {
   margin-bottom: 5mm;
   font-size: 3.5mm;
 }
+.temperature-icons {
+  position: absolute;
+  bottom: 20px;
+  right: 70px;
+}
+
 .system-label {
   position: absolute;
   right: 10mm;
-  bottom: 10mm;
+  bottom: 5mm;
   background-color: #fff;
   color: var(--amor-darkred);
   width: 15mm;

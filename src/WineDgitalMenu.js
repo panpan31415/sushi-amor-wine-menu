@@ -2,6 +2,9 @@ import "./WineDigitalMenu.scss";
 import { useRef, useState } from "react";
 import wines from "./wines";
 import html2canvas from "html2canvas";
+import { IoSnowOutline } from "react-icons/io5";
+import { AiOutlineFire } from "react-icons/ai";
+
 function WineDigitalMenu({ setRoute }) {
   const [page, setPage] = useState(0);
 
@@ -58,6 +61,10 @@ function WineDigitalMenu({ setRoute }) {
             <p className="volume">
               <span className="title">indhold: </span> {wines[page].volume}
             </p>
+            <div className="temperature-icons">
+              {wines[page].canBeHeated && <AiOutlineFire size={30} />}
+              {wines[page].canBeChilled && <IoSnowOutline size={30} />}
+            </div>
             <div className="system-label">{wines[page].systemLabel}</div>
           </div>
         </div>
