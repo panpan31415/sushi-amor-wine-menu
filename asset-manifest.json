@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sushi-amor-wine-menu/static/css/main.c57a60f2.css",
+    "main.js": "/sushi-amor-wine-menu/static/js/main.6145465e.js",
+    "static/js/787.6e538459.chunk.js": "/sushi-amor-wine-menu/static/js/787.6e538459.chunk.js",
+    "index.html": "/sushi-amor-wine-menu/index.html",
+    "main.c57a60f2.css.map": "/sushi-amor-wine-menu/static/css/main.c57a60f2.css.map",
+    "main.6145465e.js.map": "/sushi-amor-wine-menu/static/js/main.6145465e.js.map",
+    "787.6e538459.chunk.js.map": "/sushi-amor-wine-menu/static/js/787.6e538459.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c57a60f2.css",
+    "static/js/main.6145465e.js"
+  ]
+}
