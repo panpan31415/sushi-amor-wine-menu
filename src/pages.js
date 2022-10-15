@@ -102,6 +102,8 @@ const pages = {
     volume: `180 ml`,
     systemLabel: "9",
     price: "99kr",
+    canBeChilled: true,
+    canBeHeated: true,
   },
   13: {
     name: `TU NO JUNMAI SAKE WHITE `,
@@ -113,6 +115,8 @@ const pages = {
     volume: `180 ml`,
     systemLabel: "10",
     price: "99kr",
+    canBeChilled: true,
+    canBeHeated: true,
   },
   14: {
     name: `MABOROSHI GINJO SEIKYO`,
@@ -127,6 +131,8 @@ const pages = {
     volume: `180 ml`,
     systemLabel: "11",
     price: "189kr",
+    canBeChilled: true,
+    canBeHeated: true,
   },
   15: {
     name: `VIÑA TARAPACÁ SAUVIGNON BLANC KVARTFLASKE`,
@@ -165,6 +171,8 @@ const pages = {
     volume: `180 ml`,
     systemLabel: "14",
     price: "99kr",
+    canBeChilled: true,
+    canBeHeated: true,
   },
   18: {
     name: `DAISEKKEI GREEN SAKE`,
@@ -177,6 +185,8 @@ const pages = {
     volume: `180 ml`,
     systemLabel: "15",
     price: "99kr",
+    canBeChilled: true,
+    canBeHeated: true,
   },
   19: {
     name: `SAYURI NIGORI SAKE PINK`,
@@ -189,6 +199,7 @@ const pages = {
     volume: `300 ml`,
     systemLabel: "16",
     price: "179kr",
+    canBeChilled: true,
   },
   20: {}, // cover end
 };

@@ -53,7 +53,7 @@ hr {
 .system-label {
   position: absolute;
   right: 10mm;
-  bottom: 5mm;
+  bottom: 10mm;
   background-color: #fff;
   color: var(--amor-darkred);
   width: 15mm;
@@ -119,6 +119,16 @@ hr {
     color: var(--amor-darkred);
     background-color: #fff;
     border-radius: 100%;
+  }
+  .temperature-icons {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    height: 40px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
   }
   &__img {
     width: 100%;

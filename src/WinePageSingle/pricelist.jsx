@@ -13,11 +13,12 @@ const PriceListItem = ({ wine }) => {
       />
 
       <label>{wine.systemLabel}</label>
+
       <p>
         {wine.volume}: {wine.price}
       </p>
       <div className="temperature-icons">
-        {wines.canBeHeated && <AiOutlineFire size={15} />}
+        {wine.canBeHeated && <AiOutlineFire size={15} />}
         {wine.canBeChilled && <IoSnowOutline size={15} />}
       </div>
     </div>
