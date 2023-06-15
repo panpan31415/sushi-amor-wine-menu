@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./App.scss";
 import WineDigitalMenu from "./WineDgitalMenu";
 import TeaDigitalMenu from "./TeaDigitalMenu";
+import PriceListOnProjector from "./WinePageSingle/pricelistProjector";
+import BillBoard from "./Billboard";
 
 function Home({ setRoute }) {
   return (
@@ -11,14 +13,16 @@ function Home({ setRoute }) {
         className="btn"
         onClick={() => {
           setRoute("wine_paper_version");
-        }}>
+        }}
+      >
         Wine Menu Paper Version
       </button>
       <button
         className="btn"
         onClick={() => {
           setRoute("wine_digital_version");
-        }}>
+        }}
+      >
         Wine Menu Digital Version
       </button>
       <button
@@ -47,6 +51,15 @@ function App() {
       }
       case "tea_digital_version": {
         return <TeaDigitalMenu setRoute={setRoute} />;
+      }
+      case "price_list_on_projector": {
+        return <PriceListOnProjector setRoute={setRoute} />;
+      }
+      case "billboard": {
+        return <BillBoard setRoute={setRoute} />;
+      }
+      case "billboard_": {
+        return <BillBoard setRoute={setRoute} />;
       }
       default: {
         return <TeaDigitalMenu setRoute={setRoute} />;
