@@ -4,7 +4,6 @@ import "./App.scss";
 import WineDigitalMenu from "./WineDgitalMenu";
 import TeaDigitalMenu from "./TeaDigitalMenu";
 import PriceListOnProjector from "./WinePageSingle/pricelistProjector";
-import BillBoard from "./Billboard";
 
 function Home({ setRoute }) {
   return (
@@ -29,8 +28,17 @@ function Home({ setRoute }) {
         className="btn"
         onClick={() => {
           setRoute("tea_digital_version");
-        }}>
+        }}
+      >
         Tea Menu Digital Version
+      </button>
+      <button
+        className="btn"
+        onClick={() => {
+          setRoute("price_list_on_projector");
+        }}
+      >
+        wine on projector
       </button>
     </div>
   );
@@ -54,12 +62,6 @@ function App() {
       }
       case "price_list_on_projector": {
         return <PriceListOnProjector setRoute={setRoute} />;
-      }
-      case "billboard": {
-        return <BillBoard setRoute={setRoute} />;
-      }
-      case "billboard_": {
-        return <BillBoard setRoute={setRoute} />;
       }
       default: {
         return <TeaDigitalMenu setRoute={setRoute} />;
