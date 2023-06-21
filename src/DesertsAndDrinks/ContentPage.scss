@@ -1,0 +1,13 @@
+.contentPage {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.waterMark {
+  width: 150mm;
+  opacity: 0.1;
+}

@@ -1,0 +1,26 @@
+.coverPage {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+.logo {
+  width: 130%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.titleContainer {
+  position: absolute;
+  width: 55%;
+  right: 10mm;
+  bottom: 10mm;
+  p {
+    font-size: 18mm;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: inherit;
+    text-align: right;
+  }
+}

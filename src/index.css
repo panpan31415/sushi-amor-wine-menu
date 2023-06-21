@@ -8,13 +8,14 @@
   font-family: inherit;
 }
 html {
-  --white: #fff;
-  --amor-darkred: #520004;
-  --amor-gold: #e6ad53;
   font-family: "Noto Sans Mono", monospace;
 }
 body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  --white: #fff;
+  --amor-darkred: #520004;
+  --amor-gold: #e6ad53;
+  --dark-blue: #060c0e;
 }

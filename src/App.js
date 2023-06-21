@@ -4,6 +4,7 @@ import "./App.scss";
 import WineDigitalMenu from "./WineDgitalMenu";
 import TeaDigitalMenu from "./TeaDigitalMenu";
 import PriceListOnProjector from "./WinePageSingle/pricelistProjector";
+import DesertsAndDrinks from "./DesertsAndDrinks";
 
 function Home({ setRoute }) {
   return (
@@ -40,14 +41,23 @@ function Home({ setRoute }) {
       >
         wine on projector
       </button>
+      <button
+        className="btn"
+        onClick={() => {
+          setRoute("drinks_deserts");
+        }}
+      >
+        Drinks and Deserts
+      </button>
     </div>
   );
 }
 
 function App() {
   const [route, setRoute] = useState("home");
-  const selectRoute = () => {
-    switch (route) {
+  const selectRoute = (route) => {
+    const _route = "drinks_deserts";
+    switch (_route) {
       case "home": {
         return <Home setRoute={setRoute} />;
       }
@@ -63,13 +73,16 @@ function App() {
       case "price_list_on_projector": {
         return <PriceListOnProjector setRoute={setRoute} />;
       }
+      case "drinks_deserts": {
+        return <DesertsAndDrinks setRoute={setRoute} />;
+      }
       default: {
-        return <TeaDigitalMenu setRoute={setRoute} />;
+        return <DesertsAndDrinks setRoute={setRoute} />;
       }
     }
   };
 
-  return <div className="App">{selectRoute()}</div>;
+  return <div className="App">{selectRoute(route)}</div>;
 }
 
 export default App;
