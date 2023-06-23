@@ -7,7 +7,7 @@ const ContentPage = ({ children }) => {
       <div className="waterMark">
         <img src={Logo} alt="logo" />
       </div>
-      {children}
+      <div className="listContainer">{children}</div>
     </div>
   );
 };
