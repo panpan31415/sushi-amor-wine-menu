@@ -1,7 +1,7 @@
 .contentPage {
   position: relative;
   overflow: hidden;
-  background-color: var(--dark-blue);
+  background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +17,5 @@
 .waterMark {
   width: 150mm;
   opacity: 0.1;
+  transform: translateX(10mm);
 }

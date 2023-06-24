@@ -1,4 +1,5 @@
-import SodaWaterList from "./SodaWaterListPage1";
+import CoverPage from "./CoverPage";
+import SodaWaterList from "./SodaWaterListPage";
 import WinesAndSakeList from "./WinesAndSakeListPage";
 import "./index.scss";
 const DesertsAndDrinks = () => {

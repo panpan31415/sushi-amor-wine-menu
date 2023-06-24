@@ -1,5 +1,5 @@
 import "./ContentPage.scss";
-import Logo from "./img/logo.svg";
+import Logo from "./img/logo.png";
 
 const ContentPage = ({ children }) => {
   return (

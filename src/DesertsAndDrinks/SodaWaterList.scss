@@ -1,5 +1,5 @@
 .listTitle {
-  color: var(--white);
+  color: var(--amor-darkred);
   text-transform: uppercase;
   font-size: 10mm;
   text-align: center;
@@ -8,12 +8,12 @@
 .sodaWaterAndJuice {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: "white";
+  color: var(--amor-darkred);
   gap: 2mm;
   &__item {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    color: var(--white);
+    color: var(--amor-darkred);
     gap: 2.5mm;
     padding: 2.5mm;
   }

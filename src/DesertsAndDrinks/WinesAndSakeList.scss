@@ -1,5 +1,5 @@
 .listTitle {
-  color: var(--white);
+  color: var(--amor-darkred);
   text-transform: uppercase;
   font-size: 10mm;
   text-align: center;
@@ -23,21 +23,20 @@
     height: 45mm;
   }
   p {
-    color: var(--white);
+    color: var(--amor-darkred);
   }
   .systemLabel {
     position: absolute;
     width: 10mm;
     height: 10mm;
-    color: var(--amor-blue);
+    color: var(--amor-darkred);
     top: 0;
     right: 0;
     font-size: 5mm;
-    border: 1px solid white;
-    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.2mm solid var(--amor-darkred);
     border-radius: 100%;
   }
   .wineAttribute {
