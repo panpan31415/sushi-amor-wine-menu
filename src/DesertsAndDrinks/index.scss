@@ -5,8 +5,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .a4 {
   width: 210mm;
   height: 297mm;
+}
+.pageBtn {
+  font-size: 5mm;
+  height: 10mm;
+  width: 30mm;
+  position: absolute;
+  &--previous {
+    left: 0;
+  }
+  &--next {
+    right: 0;
+  }
 }

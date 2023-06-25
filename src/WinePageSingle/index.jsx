@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 import WaterMark from "./waterMark";
 
-let page = ({ wine }) => {
+let WineSinglePage = ({ wine }) => {
   const {
     name,
     imageUrl,
@@ -44,4 +44,4 @@ let page = ({ wine }) => {
   );
 };
 
-export default page;
+export default WineSinglePage;

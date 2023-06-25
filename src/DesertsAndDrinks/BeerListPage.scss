@@ -1,9 +1,8 @@
 .title {
-  color: var(--amor-darkred);
+  color: var(--dark-blue);
   text-transform: uppercase;
-  font-size: 5mm;
+  font-size: 10mm;
   text-align: center;
-  margin: 2mm 0;
 }
 .beerContainer {
   display: grid;
@@ -12,29 +11,30 @@
 }
 .item {
   display: grid;
-  grid-template-columns: 4fr 5fr;
-  height: 130mm;
-  color: var(--amor-darkred);
+  grid-template-columns: 4fr 6fr;
+  height: 125mm;
+  color: var(--dark-blue);
   gap: 2.5mm;
   align-items: end;
   &__image {
     background-image: url(https://sushi-amor-taastrup.s3.eu-north-1.amazonaws.com/images/beer/sappro.png);
     background-position: center;
-    height: 130mm;
+    height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     grid-column: 1 / 2;
   }
   &__info {
     grid-column: 2 / 3;
-    height: 130mm;
+    height: 100%;
   }
   &__name {
-    font-size: 4mm;
+    font-size: 5mm;
+    text-transform: capitalize;
   }
   &__description {
     font-size: 3mm;
-    line-height: 4mm;
+    line-height: 5mm;
     p {
       margin-top: 2mm;
     }

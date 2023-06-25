@@ -1,21 +1,21 @@
 .wine-page-single {
-  width: 148mm;
-  height: 210mm;
-  background-color: var(--amor-darkred);
+  width: 210mm;
+  height: 297mm;
+  background-color: var(--white);
   overflow: hidden;
   padding: 5mm;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   position: relative;
   z-index: 1;
   gap: 3mm;
 }
 .left-side {
-  width: 50mm;
-  height: 190mm;
+  height: 200mm;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  border: 1px solid red;
 }
 .right-side {
   background-color: rgba(black, 0.5);
