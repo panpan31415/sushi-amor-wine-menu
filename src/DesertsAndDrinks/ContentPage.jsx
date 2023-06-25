@@ -4,9 +4,9 @@ import Logo from "./img/logo.png";
 const ContentPage = ({ children }) => {
   return (
     <div className="a4 contentPage">
-      <div className="waterMark">
+      {/* <div className="waterMark">
         <img src={Logo} alt="logo" />
-      </div>
+      </div> */}
       <div className="listContainer">{children}</div>
     </div>
   );

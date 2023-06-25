@@ -1,9 +1,8 @@
 .listTitle {
-  color: var(--amor-darkred);
+  color: var(--dark-blue);
   text-transform: uppercase;
   font-size: 10mm;
-  text-align: center;
-  margin: 5mm 0;
+  margin: 5mm auto;
 }
 .itemContainer {
   display: grid;
@@ -14,30 +13,32 @@
 .vItem {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 4fr 1fr;
   justify-items: center;
   align-items: center;
   position: relative;
+  gap: 3mm;
   img {
     width: auto;
     height: 45mm;
   }
   p {
-    color: var(--amor-darkred);
+    color: var(--dark-blue);
+    font-size: 5mm;
+    line-height: 4mm;
   }
   .systemLabel {
     position: absolute;
-    width: 10mm;
-    height: 10mm;
-    color: var(--amor-darkred);
-    top: 0;
-    right: 0;
-    font-size: 5mm;
+    padding: 1.5mm 3mm;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    top: 2mm;
+    right: 1mm;
+    font-size: 4mm;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.2mm solid var(--amor-darkred);
-    border-radius: 100%;
+
+    border-radius: 3mm;
   }
   .wineAttribute {
     width: 6mm;
@@ -47,5 +48,6 @@
     align-items: center;
     position: absolute;
     right: 2mm;
+    color: var(--dark-blue);
   }
 }

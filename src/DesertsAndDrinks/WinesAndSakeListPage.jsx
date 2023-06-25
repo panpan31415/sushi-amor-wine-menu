@@ -11,20 +11,22 @@ const VItem = ({
   systemLabel,
   canBeHeated,
   canBeChilled,
+  volume,
 }) => {
   return (
     <div className="vItem">
       <div className="systemLabel">{systemLabel}</div>
       <img src={imageUrl} alt={name} />
+      <p>{volume}</p>
       <p>{price}</p>
       {canBeHeated && (
         <div className="wineAttribute" style={{ bottom: "20mm" }}>
-          <AiOutlineFire size={"10mm"} color="white" />
+          <AiOutlineFire size={"10mm"} color="currentColor" />
         </div>
       )}
       {canBeChilled && (
         <div className="wineAttribute" style={{ bottom: "30mm" }}>
-          <IoSnowOutline size={"10mm"} color="white" />
+          <IoSnowOutline size={"10mm"} color="currentColor" />
         </div>
       )}
     </div>
@@ -44,9 +46,10 @@ const WinesAndSakeList = () => {
                 imageUrl={wine.imageUrl}
                 price={wine.price}
                 name={wine.name}
-                systemLabel={wine.systemLabel}
+                systemLabel={"V" + wine.systemLabel}
                 canBeHeated={wine.canBeHeated}
                 canBeChilled={wine.canBeChilled}
+                volume={wine.volume}
               />
             );
           })}

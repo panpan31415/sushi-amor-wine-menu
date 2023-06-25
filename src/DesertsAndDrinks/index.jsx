@@ -6,7 +6,7 @@ import "./index.scss";
 const DesertsAndDrinks = () => {
   return (
     <div className="newMenuContainer">
-      <BeerListPage2 />
+      <WinesAndSakeList />
     </div>
   );
 };
