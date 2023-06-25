@@ -36,9 +36,9 @@ export const sodaWaterList = [
     imgUrl: "faxekondi.png",
   },
   {
-    name: "Danske Vand",
-    description: "kan være med citron eller uden citron",
-    imgUrl: "sparkingWater.png",
+    name: "Aqua dor mineralvand",
+    description: "unde brus",
+    imgUrl: "aquador.png",
   },
   {
     name: "Hyldeblomst",
@@ -57,9 +57,9 @@ export const sodaWaterList = [
     imgUrl: "orange-juice.png",
   },
   {
-    name: "Aqua dor mineralvand",
-    description: "unde brus",
-    imgUrl: "aquador.png",
+    name: "Danske Vand",
+    description: `det er med brus, kan kome med eller uden citronsmag,`,
+    imgUrl: "sparkingWater.png",
   },
   {
     name: "isvand",
@@ -84,8 +84,7 @@ const SodaWaterPrice = () => {
 const MineralWaterPrice = () => {
   return (
     <Fragment>
-      <div className="sodaWaterAndJuice__volume--s">0.50 L</div>
-      <div className="sodaWaterAndJuice__price--s">25kr.</div>
+      <div className="sodaWaterAndJuice__price--s">25kr/flask</div>
     </Fragment>
   );
 };
@@ -93,7 +92,6 @@ const MineralWaterPrice = () => {
 const IcelWaterPrice = () => {
   return (
     <Fragment>
-      <div className="sodaWaterAndJuice__volume--s">Glas</div>
       <div className="sodaWaterAndJuice__price--s">20kr.</div>
     </Fragment>
   );

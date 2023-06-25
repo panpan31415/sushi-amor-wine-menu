@@ -5,7 +5,7 @@
   overflow: hidden;
   padding: 5mm;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 6fr;
   position: relative;
   z-index: 1;
   gap: 3mm;
@@ -21,13 +21,13 @@
 .right-side {
   padding: 5mm;
   color: #fff;
-  line-height: 7mm;
+  line-height: 10mm;
   font-weight: 100;
   font-weight: 400;
   background-color: var(--dark-blue);
 }
 .name {
-  font-size: 5mm;
+  font-size: 10mm;
   color: #fff;
 }
 hr {
@@ -35,15 +35,15 @@ hr {
 }
 .description1 {
   margin-bottom: 5mm;
-  font-size: 3.5mm;
+  font-size: 5mm;
 }
 .description2 {
   margin-bottom: 5mm;
-  font-size: 3.5mm;
+  font-size: 5mm;
 }
 .goodWith {
   margin-bottom: 5mm;
-  font-size: 3.5mm;
+  font-size: 5mm;
 }
 .temperature-icons {
   position: absolute;
@@ -53,12 +53,15 @@ hr {
 
 .system-label {
   position: absolute;
-  padding: 4mm 10mm;
+  padding: 5mm 14mm;
   background-color: #fff;
   color: var(--amor-darkred);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10mm;
+  font-size: 8mm;
   border-radius: 5mm;
+}
+.description {
+  font-size: 5mm;
 }
