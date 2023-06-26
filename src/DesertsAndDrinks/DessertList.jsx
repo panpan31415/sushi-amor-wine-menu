@@ -34,7 +34,7 @@ const DessertList = () => {
   const cake3 = cakes[2];
   return (
     <div className="dessertPage a4">
-      <h2 className="listTitle">Desserter</h2>
+      <h2 className="desertListTitle">Desserter</h2>
       <Fragment>
         <div className="cake cake--1">
           <div
