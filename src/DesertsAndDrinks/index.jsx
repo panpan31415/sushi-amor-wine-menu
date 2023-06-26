@@ -21,12 +21,14 @@ import {
   V14,
   V15,
 } from "./WinePage";
+import DessertList from "./DessertList";
 
 const pages = [
   CoverPage,
   SodaWaterList,
   BeerListPage1,
   BeerListPage2,
+  DessertList,
   WinesAndSakeList,
   V1,
   V2,

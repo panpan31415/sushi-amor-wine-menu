@@ -90,11 +90,7 @@ const MineralWaterPrice = () => {
 };
 
 const IcelWaterPrice = () => {
-  return (
-    <Fragment>
-      <div className="sodaWaterAndJuice__price--s">20kr.</div>
-    </Fragment>
-  );
+  return <div className="sodaWaterAndJuice__price--s">20kr.</div>;
 };
 
 export const SodaWaterItem = ({ imgUrl, name, description }) => {

@@ -1,0 +1,112 @@
+.listTitle {
+  color: var(--white);
+  position: absolute;
+  top: 0mm;
+  right: 10mm;
+}
+.dessertPage {
+  background-color: var(--dark-blue);
+  overflow: hidden;
+  position: relative;
+}
+.cakes {
+  width: 180mm;
+  height: 250mm;
+  margin: 0 auto;
+}
+
+.cake {
+  height: 130mm;
+  width: 130mm;
+  border: 1mm solid var(--white);
+  background-color: var(--white);
+  border-radius: 100%;
+  position: absolute;
+  &__info {
+    width: 95mm;
+    border-top: 0.5mm solid var(--white);
+    position: absolute;
+    z-index: 1;
+  }
+  &__name {
+    font-size: 5mm;
+    color: var(--white);
+    text-align: right;
+    margin-top: 2mm;
+    text-transform: capitalize;
+  }
+  &__description {
+    font-size: 4mm;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 7mm;
+    text-align: justify;
+    margin-top: 2mm;
+    text-transform: uppercase;
+  }
+  &__price {
+    font-size: 5mm;
+    color: var(--white);
+    margin-top: 2mm;
+    text-transform: capitalize;
+  }
+
+  &__image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  &--1 {
+    top: -20mm;
+    left: -20mm;
+    z-index: 2;
+    &__info {
+      padding-left: 10mm;
+      right: 10mm;
+      top: 25mm;
+    }
+    &__name {
+      text-align: right;
+    }
+    &__description {
+      text-align: left;
+    }
+    &__price {
+      text-align: right;
+    }
+  }
+  &--2 {
+    top: 90mm;
+    right: -30mm;
+    transform: rotateZ(180deg);
+    z-index: 2;
+    &__info {
+      width: 95mm;
+      padding-right: 25mm;
+      left: 30mm;
+      top: 115mm;
+      z-index: 1;
+    }
+    &__name {
+      text-align: left;
+    }
+  }
+  &--3 {
+    top: 190mm;
+    left: -20mm;
+    z-index: 2;
+    &__info {
+      padding-left: 20mm;
+      right: 10mm;
+      top: 225mm;
+      width: 100mm;
+      z-index: 1;
+    }
+    &__price {
+      text-align: right;
+    }
+  }
+}
