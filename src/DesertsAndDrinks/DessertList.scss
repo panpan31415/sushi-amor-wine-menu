@@ -113,3 +113,67 @@
     }
   }
 }
+
+.icecream1 {
+  width: 100%;
+  height: 130mm;
+  margin-top: 20mm;
+  padding: 15mm;
+  display: grid;
+  gap: 5mm;
+  grid-template-columns: 6fr 4fr;
+  justify-content: center;
+  align-items: center;
+  &__image {
+    width: 100%;
+  }
+  &__name {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 6mm;
+  }
+  &__description {
+    color: var(--white);
+    font-size: 4mm;
+    line-height: 7mm;
+    text-transform: uppercase;
+    margin-top: 4mm;
+    text-align: justify;
+  }
+  &__price {
+    color: var(--white);
+    font-size: 5mm;
+    margin-top: 4mm;
+  }
+}
+.icecream2 {
+  width: 100%;
+  height: 100mm;
+  padding: 15mm;
+  display: grid;
+  gap: 5mm;
+  grid-template-columns: 4fr 6fr;
+  justify-content: center;
+  align-items: center;
+  &__image {
+    width: 100%;
+  }
+  &__name {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 6mm;
+  }
+  &__description {
+    color: var(--white);
+    font-size: 4mm;
+    line-height: 7mm;
+    text-transform: uppercase;
+    text-align: justify;
+    margin-top: 4mm;
+  }
+  &__price {
+    color: var(--white);
+    font-size: 5mm;
+    margin-top: 4mm;
+  }
+}
