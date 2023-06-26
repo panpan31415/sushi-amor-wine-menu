@@ -54,12 +54,13 @@ hr {
 .system-label {
   position: absolute;
   padding: 5mm 14mm;
-  background-color: #fff;
-  color: var(--dark-blue);
+  background-color: var(--dark-blue);
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 8mm;
+  border: 0.5mm solid var(--white);
   border-radius: 5mm;
 }
 .description {
