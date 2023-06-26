@@ -22,6 +22,7 @@ import {
   V15,
 } from "./WinePage";
 import { Cakes, IceCreamList } from "./DessertList";
+import TeaList from "./TeaList";
 
 const pages = [
   CoverPage,
@@ -30,6 +31,7 @@ const pages = [
   BeerListPage2,
   Cakes,
   IceCreamList,
+  TeaList,
   WinesAndSakeList,
   V1,
   V2,

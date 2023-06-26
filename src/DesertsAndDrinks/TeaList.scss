@@ -1,0 +1,62 @@
+.teapage {
+  background-color: var(--white);
+}
+
+.teaPageTitle {
+  color: var(--dark-blue);
+  text-transform: uppercase;
+  font-size: 10mm;
+  text-align: center;
+  margin: 5mm 0;
+}
+.teaListContainer {
+  width: 190mm;
+  height: 250mm;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10mm;
+}
+.teaItem {
+  background-color: var(--white);
+  height: 120mm;
+  width: 90mm;
+  position: relative;
+  &__imgContainer {
+    height: 30mm;
+    width: 90mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__img {
+    height: 30mm;
+  }
+  &__info {
+    padding: 0 2.5mm;
+    height: 90mm;
+    width: 90mm;
+    text-align: center;
+  }
+  &__name {
+    font-size: 6mm;
+  }
+  &__systemLabel {
+    font-size: 4mm;
+    display: inline-block;
+    padding: 2mm 4mm;
+    border: 1px solid var(--dark-blue);
+    border-radius: 4mm;
+    position: absolute;
+    top: 0;
+    left: 0mm;
+  }
+  &__price {
+    font-size: 5mm;
+    margin-top: 2mm;
+  }
+  &__description {
+    font-size: 4mm;
+    margin-top: 2mm;
+  }
+}
