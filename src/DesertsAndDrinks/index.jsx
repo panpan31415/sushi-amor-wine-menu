@@ -61,6 +61,8 @@ const DesertsAndDrinks = () => {
   const Page = pages[(index + pages.length) % pages.length];
   const print = useRef();
 
+  const [showCuttingLine, setShowCuttingLine] = useState(false);
+
   const capture = async (ref, pageNumber) => {
     const canvas = await html2canvas(ref.current);
     const img = canvas.toDataURL("image/png", 1);
@@ -69,10 +71,13 @@ const DesertsAndDrinks = () => {
     link.href = img;
     link.click();
   };
+  const cuttingLineStyle = showCuttingLine
+    ? { border: "5mm dashed white" }
+    : {};
   return (
     <div ref={print}>
       <div className="newMenuContainer">
-        <div style={{ border: "5mm dashed white" }}>
+        <div style={cuttingLineStyle}>
           <Page />
         </div>
 
@@ -95,6 +100,13 @@ const DesertsAndDrinks = () => {
           }
         >
           download page: {((index + pages.length) % pages.length) + 1}
+        </button>
+
+        <button
+          className="pageBtn pageBtn--cutting-toggle"
+          onClick={() => setShowCuttingLine(!showCuttingLine)}
+        >
+          cutting lines: {showCuttingLine ? "on" : "off"}
         </button>
       </div>
     </div>
