@@ -55,7 +55,7 @@ export const beers = [
     ],
     alcohol: "5 %",
     imgUrl: "blanc.png",
-    price: "59kr/flask(33cl)",
+    price: "49kr/flask(33cl)",
   },
   {
     name: "Kronenbourg 1664 Blanc 0.0",
@@ -65,7 +65,7 @@ export const beers = [
     ],
     alcohol: "0.0 %",
     imgUrl: "blanc_0.png",
-    price: "59kr/flask(33cl)",
+    price: "49kr/flask(33cl)",
   },
   {
     name: "Carlsberg Pilsner",
