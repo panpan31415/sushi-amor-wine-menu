@@ -9,10 +9,12 @@ function TeaItemPage({ tea }) {
       <div className="left">
         <div
           className="img1"
-          style={{ backgroundImage: `url(${tea.image1Url})` }}></div>
+          style={{ backgroundImage: `url(${tea.image1Url})` }}
+        ></div>
         <div
           className="img2"
-          style={{ backgroundImage: `url(${tea.image2Url})` }}></div>
+          style={{ backgroundImage: `url(${tea.image2Url})` }}
+        ></div>
       </div>
       <div className="right">
         <p>
@@ -78,7 +80,8 @@ function TeaDigitalMenu({ setRoute }) {
         }}
         onClick={() => {
           setRoute("home");
-        }}>
+        }}
+      >
         Home
       </button>
       <button
@@ -91,7 +94,8 @@ function TeaDigitalMenu({ setRoute }) {
           left: "20px",
           bottom: "20px",
           width: "180px",
-        }}>
+        }}
+      >
         Download Page: {teasArray[page].systemLabel}
       </button>
     </div>

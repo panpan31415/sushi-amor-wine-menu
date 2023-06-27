@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { BeerListPage1, BeerListPage2 } from "./BeerListPage";
 import CoverPage from "./CoverPage";
 import SodaWaterList from "./SodaWaterListPage";
@@ -26,6 +26,7 @@ import TeaList from "./TeaList";
 import CafePage from "./CaffeListPage";
 import CoverEndPage from "./CoverEnd";
 import SecondCoverPage from "./SecondCoverPage";
+import html2canvas from "html2canvas";
 
 const pages = [
   CoverPage,
@@ -59,21 +60,39 @@ const DesertsAndDrinks = () => {
   const [index, setIndex] = useState(0);
   const currentPageIndex = Math.abs(index + pages.length) % pages.length;
   const Page = pages[currentPageIndex];
+  const print = useRef();
+
+  const capture = async (ref, pageNumber) => {
+    const canvas = await html2canvas(ref.current);
+    const img = canvas.toDataURL("image/png", 1);
+    const link = document.createElement("a");
+    link.download = pageNumber + ".png";
+    link.href = img;
+    link.click();
+  };
   return (
-    <div className="newMenuContainer">
-      <Page />
-      <button
-        className="pageBtn pageBtn--previous"
-        onClick={() => setIndex(index - 1)}
-      >
-        previous
-      </button>
-      <button
-        className="pageBtn pageBtn--next"
-        onClick={() => setIndex(index + 1)}
-      >
-        next
-      </button>
+    <div ref={print}>
+      <div className="newMenuContainer">
+        <Page />
+        <button
+          className="pageBtn pageBtn--previous"
+          onClick={() => setIndex(index - 1)}
+        >
+          previous
+        </button>
+        <button
+          className="pageBtn pageBtn--next"
+          onClick={() => setIndex(index + 1)}
+        >
+          next
+        </button>
+        <button
+          className="pageBtn pageBtn--capture"
+          onClick={() => capture(print, currentPageIndex + 1)}
+        >
+          download page: {currentPageIndex + 1}
+        </button>
+      </div>
     </div>
   );
 };
