@@ -58,8 +58,7 @@ const pages = [
 ];
 const DesertsAndDrinks = () => {
   const [index, setIndex] = useState(0);
-  const currentPageIndex = Math.abs(index + pages.length) % pages.length;
-  const Page = pages[currentPageIndex];
+  const Page = pages[(index + pages.length) % pages.length];
   const print = useRef();
 
   const capture = async (ref, pageNumber) => {
@@ -73,7 +72,10 @@ const DesertsAndDrinks = () => {
   return (
     <div ref={print}>
       <div className="newMenuContainer">
-        <Page />
+        <div style={{ border: "5mm dashed white" }}>
+          <Page />
+        </div>
+
         <button
           className="pageBtn pageBtn--previous"
           onClick={() => setIndex(index - 1)}
@@ -88,9 +90,11 @@ const DesertsAndDrinks = () => {
         </button>
         <button
           className="pageBtn pageBtn--capture"
-          onClick={() => capture(print, currentPageIndex + 1)}
+          onClick={() =>
+            capture(print, ((index + pages.length) % pages.length) + 1)
+          }
         >
-          download page: {currentPageIndex + 1}
+          download page: {((index + pages.length) % pages.length) + 1}
         </button>
       </div>
     </div>
