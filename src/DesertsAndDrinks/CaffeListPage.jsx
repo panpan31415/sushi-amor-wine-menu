@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import "./CaffeListPage.scss";
 const caffes = [
   {
