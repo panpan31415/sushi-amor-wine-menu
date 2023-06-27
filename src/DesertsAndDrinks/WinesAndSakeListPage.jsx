@@ -37,7 +37,7 @@ const WinesAndSakeList = () => {
   return (
     <ContentPage>
       <div className="listContainer">
-        <h2 className="listTitle">vine og sake</h2>
+        <h2 className="wineListTitle">vine og sake</h2>
         <div className="itemContainer">
           {wines.map((wine) => {
             return (

@@ -1,7 +1,9 @@
-.listTitle {
+.wineListTitle {
   color: var(--white);
   text-transform: uppercase;
   font-size: 10mm;
+  text-align: center;
+  margin-bottom: 5mm;
 }
 .itemContainer {
   display: grid;

@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
 .EmptyPage {
-  width: 210mm;
-  height: 297mm;
   background-image: linear-gradient(rgba(#060c0e, 1), rgba(#060c0e, 0.1));
 }
 .Restaurant {
   background-image: url(https://sushi-amor-taastrup.s3.eu-north-1.amazonaws.com/images/amor_taastrup_restaurant.png);
   background-position: center;
   background-size: cover;
-  margin: 30mm;
   position: relative;
 }
 .coverText {
