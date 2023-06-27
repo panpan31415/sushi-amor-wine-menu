@@ -43,7 +43,9 @@ export const beers = [
     ],
     alcohol: "4.6 %",
     imgUrl: "tuborg-classic.png",
-    price: "40kr/lille 55kr/medium 78kr/store",
+    price: `40kr/250ml 
+            55kr/500ml 
+            78kr/1L`,
   },
   {
     name: "Kronenbourg 1664 Blanc",
@@ -106,8 +108,8 @@ export const BeerItem = ({ beer }) => {
             <p key={index}>{description}</p>
           ))}
         </div>
-        <div className="item__alcohol">alcohol:{beer.alcohol}</div>
-        <div className="item__price">pris:{beer.price}</div>
+        <div className="item__alcohol">Alcohol:{beer.alcohol}</div>
+        <div className="item__price">Pris: {beer.price}</div>
       </div>
     </div>
   );
