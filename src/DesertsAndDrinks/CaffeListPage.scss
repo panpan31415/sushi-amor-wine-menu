@@ -1,0 +1,137 @@
+.cafeListTitle {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 10mm;
+  margin: 5mm;
+  text-align: center;
+}
+.cafePage {
+  position: relative;
+  background-color: var(--dark-blue);
+  overflow: hidden;
+}
+.cafeItem {
+  width: 190mm;
+  height: 100mm;
+  background-color: var(--white);
+  box-shadow: 1mm -1mm 1mm rgba(0, 0, 0, 0.4);
+  inset: 10px solid red;
+  padding: 15mm 0;
+  position: relative;
+  overflow: hidden;
+  &__image {
+    height: 55mm;
+    margin-left: 0mm;
+  }
+  &__name {
+    font-size: 15mm;
+    font-weight: 700;
+    left: 110mm;
+    top: 10mm;
+  }
+  &__info {
+    text-transform: capitalize;
+    width: 80mm;
+    height: 75mm;
+    position: absolute;
+    left: 105mm;
+    top: 10mm;
+  }
+  &__capacity {
+    margin-top: 1mm;
+    font-size: 4mm;
+    display: inline-block;
+    &--label {
+      @extend .cafeItem__capacity;
+    }
+    &--value {
+      @extend .cafeItem__capacity;
+      text-transform: lowercase;
+      margin-left: 3mm;
+    }
+  }
+  &__aromatic {
+    font-size: 4mm;
+    margin-top: 1mm;
+    display: inline-block;
+    &--label {
+      @extend .cafeItem__capacity;
+    }
+    &--value {
+      @extend .cafeItem__capacity;
+      text-transform: lowercase;
+      display: block;
+      margin-left: 33mm;
+      font-weight: 600;
+    }
+  }
+  &__priceContainer {
+    width: 42mm;
+    height: 42mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    border-radius: 40mm;
+    transform: translateX(1mm) translateY(-4mm);
+  }
+  &__price {
+    display: block;
+    font-size: 15mm;
+    font-weight: 600;
+    line-height: 12mm;
+  }
+
+  &__priceUnit {
+    font-size: 4mm;
+    display: block;
+    text-transform: lowercase;
+  }
+  &--1 {
+    @extend .cafeItem;
+    transform: translateY(0mm) translateX(0mm);
+  }
+  &--2 {
+    @extend .cafeItem;
+    transform: translateY(-15mm) translateX(25mm);
+  }
+  &--3 {
+    @extend .cafeItem;
+    transform: translateY(-25mm) translateX(5mm);
+  }
+}
+
+.intensity {
+  width: 3mm;
+  height: 3mm;
+  margin: 0 0.5mm;
+  border: 1px solid var(--dark-blue);
+  &--filled {
+    @extend .intensity;
+    border: unset;
+    background-color: var(--dark-blue);
+  }
+  &__container {
+    margin-top: 2mm;
+    text-transform: capitalize;
+    height: 6mm;
+    width: 70mm;
+    display: flex;
+    align-items: center;
+  }
+  &__number {
+    font-size: 5mm;
+    font-weight: 500;
+    display: inline;
+  }
+  &__boxes {
+    display: inline-block;
+    height: 5mm;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1mm;
+  }
+}

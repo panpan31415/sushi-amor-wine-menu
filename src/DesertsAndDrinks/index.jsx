@@ -23,15 +23,17 @@ import {
 } from "./WinePage";
 import { Cakes, IceCreamList } from "./DessertList";
 import TeaList from "./TeaList";
+import CafePage from "./CaffeListPage";
 
 const pages = [
   CoverPage,
   SodaWaterList,
   BeerListPage1,
   BeerListPage2,
+  CafePage,
+  TeaList,
   Cakes,
   IceCreamList,
-  TeaList,
   WinesAndSakeList,
   V1,
   V2,
