@@ -10,6 +10,12 @@
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
+  &--end {
+    @extend .logo;
+    right: 0;
+    left: unset;
+    transform: translate(50%, -50%);
+  }
 }
 .titleContainer {
   position: absolute;

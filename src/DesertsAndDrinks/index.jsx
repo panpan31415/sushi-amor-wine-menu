@@ -24,6 +24,7 @@ import {
 import { Cakes, IceCreamList } from "./DessertList";
 import TeaList from "./TeaList";
 import CafePage from "./CaffeListPage";
+import CoverEndPage from "./CoverEnd";
 
 const pages = [
   CoverPage,
@@ -50,10 +51,11 @@ const pages = [
   V13,
   V14,
   V15,
+  CoverEndPage,
 ];
 const DesertsAndDrinks = () => {
   const [index, setIndex] = useState(0);
-  const currentPageIndex = index % pages.length;
+  const currentPageIndex = Math.abs(index + pages.length) % pages.length;
   const Page = pages[currentPageIndex];
   return (
     <div className="newMenuContainer">
