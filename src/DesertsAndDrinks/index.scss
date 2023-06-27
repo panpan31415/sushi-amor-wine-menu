@@ -12,14 +12,19 @@
   height: 297mm;
 }
 .pageBtn {
-  font-size: 5mm;
-  height: 10mm;
-  width: 30mm;
+  font-size: 20px;
+
+  padding: 10px 20px;
+  border-radius: 10mm;
   position: absolute;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: capitalize;
   &--previous {
-    left: 0;
+    left: 20px;
   }
   &--next {
-    right: 0;
+    right: 20px;
   }
 }
