@@ -25,9 +25,11 @@ import { Cakes, IceCreamList } from "./DessertList";
 import TeaList from "./TeaList";
 import CafePage from "./CaffeListPage";
 import CoverEndPage from "./CoverEnd";
+import SecondCoverPage from "./SecondCoverPage";
 
 const pages = [
   CoverPage,
+  SecondCoverPage,
   SodaWaterList,
   BeerListPage1,
   BeerListPage2,
