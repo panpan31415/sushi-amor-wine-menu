@@ -74,9 +74,9 @@ const SodaWaterPrice = () => {
       <div className="sodaWaterAndJuice__volume--s">0.25 L</div>
       <div className="sodaWaterAndJuice__volume--m">0.50 L</div>
       <div className="sodaWaterAndJuice__volume--l">0.75 L</div>
-      <div className="sodaWaterAndJuice__price--s">40kr.</div>
-      <div className="sodaWaterAndJuice__price--m">55kr.</div>
-      <div className="sodaWaterAndJuice__price--l">75kr.</div>
+      <div className="sodaWaterAndJuice__price--s">40kr</div>
+      <div className="sodaWaterAndJuice__price--m">55kr</div>
+      <div className="sodaWaterAndJuice__price--l">75kr</div>
     </Fragment>
   );
 };
@@ -90,7 +90,7 @@ const MineralWaterPrice = () => {
 };
 
 const IcelWaterPrice = () => {
-  return <div className="sodaWaterAndJuice__price--s">20kr.</div>;
+  return <div className="sodaWaterAndJuice__price--s">20kr</div>;
 };
 
 export const SodaWaterItem = ({ imgUrl, name, description }) => {

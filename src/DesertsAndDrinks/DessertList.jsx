@@ -110,14 +110,14 @@ const icecreams = [
     name: "vanilje is",
     description:
       "sommerland klassisk is med vaniljesmag, vi putter normalt 3 kugler i en lille skål, toppet med mælkecreme, jordbærsaucer og sukkerperler. Det er inkluderet i ad libitum menuen.",
-    price: "35 kr/skål",
+    price: "35kr/skål",
     imgUrl: iceCreamUrl + "vanila_icecream.png",
   },
   {
     name: "chokolade is",
     description:
       "sommerland klassisk is med chokolade, vi plejer at putte 3 kugler i en lille skål, toppet med mælkecreme, chokoladesaucer og sukkerperler. Det er inkluderet i ad libitum menuen.",
-    price: "35 kr/skål",
+    price: "35kr/skål",
     imgUrl: iceCreamUrl + "choclate_icecream.png",
   },
 ];
@@ -148,7 +148,7 @@ export const IceCreamList = () => {
       <Fragment>
         <div className="icecream2">
           <div className="icecream2__left">
-            <h3 className="icecream2__name">{icecream2.name}</h3>{" "}
+            <h3 className="icecream2__name">{icecream2.name}</h3>
             <p className="icecream2__price">{icecream2.price}</p>
             <p className="icecream2__description">{icecream2.description}</p>
           </div>
