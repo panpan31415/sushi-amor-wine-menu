@@ -28,6 +28,7 @@ import CafePage from "./CaffeListPage";
 import CoverEndPage from "./CoverEnd";
 import SecondCoverPage from "./SecondCoverPage";
 import html2canvas from "html2canvas";
+import EmptyPage from "./EmptyPage";
 
 const pages = [
   CoverPage,
@@ -56,6 +57,7 @@ const pages = [
   V14,
   V15,
   V16,
+  EmptyPage,
   CoverEndPage,
 ];
 const DesertsAndDrinks = () => {
