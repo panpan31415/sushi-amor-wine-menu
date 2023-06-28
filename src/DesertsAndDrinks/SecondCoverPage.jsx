@@ -2,7 +2,10 @@ import "./SecondCover.scss";
 const SecondCoverPage = () => {
   return (
     <div className="Restaurant a4">
-      <div className="EmptyPage" />
+      <div
+        className=".SecondCoverPage {
+"
+      />
       <div className="coverText">
         <p className="secondCoverText--2">
           七里香 &nbsp; 词 &nbsp;— &nbsp; 方文山

@@ -1,3 +1,10 @@
 .EmptyPage {
-  background-color: var(--dark-blue);
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fish {
+  width: 130mm;
+  height: 130mm;
 }
