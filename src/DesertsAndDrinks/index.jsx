@@ -20,6 +20,7 @@ import {
   V13,
   V14,
   V15,
+  V16,
 } from "./WinePage";
 import { Cakes, IceCreamList } from "./DessertList";
 import TeaList from "./TeaList";
@@ -54,6 +55,7 @@ const pages = [
   V13,
   V14,
   V15,
+  V16,
   CoverEndPage,
 ];
 const DesertsAndDrinks = () => {
