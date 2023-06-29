@@ -131,7 +131,7 @@ export const wines = [
     systemLabel: "11",
     price: "189kr",
     canBeChilled: true,
-    canBeHeated: true,
+    canBeHeated: false,
   },
   {
     name: `VIÑA TARAPACÁ SAUVIGNON BLANC KVARTFLASKE`,
