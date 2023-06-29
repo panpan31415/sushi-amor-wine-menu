@@ -134,7 +134,7 @@ const pages = {
     systemLabel: "11",
     price: "189kr",
     canBeChilled: true,
-    canBeHeated: true,
+    canBeHeated: false,
   },
   15: {
     name: `VIÑA TARAPACÁ SAUVIGNON BLANC KVARTFLASKE`,
