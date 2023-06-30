@@ -3,7 +3,7 @@
   height: 297mm;
   background-color: var(--white);
   overflow: hidden;
-  padding: 0 5mm;
+  padding: 0 10mm;
   display: grid;
   grid-template-columns: 4fr 6fr;
   position: relative;
@@ -25,6 +25,8 @@
   font-weight: 100;
   font-weight: 400;
   background-color: var(--dark-blue);
+  position: relative;
+  border: 1px solid red;
 }
 .name {
   font-size: 10mm;
@@ -51,9 +53,9 @@ hr {
   right: 70px;
 }
 
-.system-label {
+.wine-system-label {
   position: absolute;
-  padding: 5mm 14mm;
+  padding: 3mm 6mm;
   background-color: var(--dark-blue);
   color: var(--white);
   display: flex;
@@ -62,6 +64,8 @@ hr {
   font-size: 8mm;
   border: 0.5mm solid var(--white);
   border-radius: 5mm;
+  right: 5mm;
+  bottom: 5mm;
 }
 .description {
   font-size: 5mm;

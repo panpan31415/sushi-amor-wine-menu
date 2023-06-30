@@ -36,7 +36,7 @@ const WinePage = ({ wine }) => {
         <p>
           <span className="description--title">INDHOLD:</span> {volume}
         </p>
-        <div className="system-label">{"V" + systemLabel}</div>
+        <div className="wine-system-label">{"V" + systemLabel}</div>
       </div>
     </div>
   );
