@@ -4,7 +4,7 @@ export const wines = [
   {
     name: `BIOLOGIK TERRE DI CHIETI IGT PECORINO`,
     imageUrl: storageUrl + "images/wines/1.png",
-    description1: `Frugtig og yderst smagsfyldt vin med mineralske og elegante noter.`,
+    description1: `Frugtig og yderst smagfuld vin med mineralske og elegante noter.`,
     goodWith: `Fisk - mager, ost - mild, risotto.`,
     description2: `Vinen har en delikat lys, gul farve i glasset. Duften er frugtig med hints af blomster. Smagen af citrus og fersken er lækker og frisk. Eftersmagen er mineralsk og med en elegant syre.
     `,
@@ -71,7 +71,7 @@ export const wines = [
   {
     name: `AVISPA BLANCO BIOLÓGICO ØKOLOGISK`,
     imageUrl: storageUrl + "images/wines/7.png",
-    description1: `orfriskende og velbalanceret hvidvin med en lang eftersmag.`,
+    description1: `Forfriskende og velbalanceret hvidvin med en lang eftersmag.`,
     goodWith: `Fisk - mager, pasta og pizza, skaldyr, salater, suppe, sushi, tapas.`,
     description2: `Denne forfriskende hvidvin har en sart, lys gul farve med grønlige strejf. Duften er frisk med noter af græs og frugt. Smagen er velbalanceret med friske noter af nyslået græs og grønne æbler. Eftersmagen er let bitter og vedholdende.`,
     alcohol: `11.5%`,
@@ -122,7 +122,7 @@ export const wines = [
     imageUrl: storageUrl + "images/wines/11.png",
     description1: `Denne sake er perfekt for dem der er nye i sake verdenen - den er mild og letdrikkelig, men har stadig masser af smag at byde på.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
-    description2: `Den har en let sødlig smag med frugtige og blomstrede noter, flot umami og en let, balanceret syre. Risen af varianten Shinsenbon og er poleret 58%.
+    description2: `Den har en let sødlig smag med frugtige og blomstrede noter, flot umami og en let, balanceret syre. Risen er af varianten Shinsenbon og er poleret 58%.
     Denne sake favner bredt, og den smukke flaske og det lille tilhørende glas, gør den til en helt særlig oplevelse.
     Serveres bedst ved stuetemperatur eller afkølet.
     `,
@@ -139,7 +139,7 @@ export const wines = [
     description1: `I en tid hvor vi ønsker mere friske vine, med frisk frugt og elegance, er Sauvignon Blanc svaret på vores bønner. Denne vin er frisk og med god karakter.`,
     goodWith: `Fisk - fede, fisk - mager, sushi, salater
     `,
-    description2: `Sprød og lækker hvidvin med flotte grønne reflekser i glasset. Duften er præget af frisk græs og hyldeblomster. Smagen er fokuseret og med fin syre der giver en god længde i eftersmagen.
+    description2: `Sprød og lækker hvidvin med flotte grønne reflekser i glasset. Duften er præget af frisk græs og hyldeblomst. Smagen er fokuseret og med fin syre der giver en god længde i eftersmagen.
     `,
     alcohol: `12%`,
     volume: `18.75cl`,
@@ -152,7 +152,7 @@ export const wines = [
     description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
     `,
     goodWith: `Oksekød, pasta og pizza, ost - kraftig, ost - mild.`,
-    description2: `Vina Tarapaca Cabernet Sauvignon er dyb rubinrød i glasset med en duft af modne solbær og kirsebær samt noter af vanilje Vinen er medium fyldig med en blød smag med god tæt frugt og modne tanniner. 
+    description2: `Vina Tarapaca Cabernet Sauvignon er dyb rubinrød i glasset med en duft af modne solbær og kirsebær samt noter af vanilje. Vinen er medium fyldig med en blød smag med god tæt frugt og modne tanniner. 
     `,
     alcohol: `13%`,
     volume: `18.75cl`,
@@ -162,7 +162,7 @@ export const wines = [
   {
     name: `MASUMI KARAKUCHI GOLD SAKE`,
     imageUrl: storageUrl + "images/wines/14.png",
-    description1: `Den er robust og smagfuld, men formår på samme tid at beholde et let og udtryk og en mild aroma. `,
+    description1: `Den er robust og smagfuld, men formår på samme tid at beholde et let udtryk og en mild aroma. `,
     goodWith: `grillet fisk, yakitori, teriyaki, sukiyaki og nabe hotpots.
     `,
     description2: `Karakuchi Gold er en af bryggernes favoritter hos Masumi, da den går perfekt til de mere solide og krydrede japanske retter, der er skønne efter en lang dags hårdt arbejde i bryggeriet.`,
@@ -191,7 +191,7 @@ export const wines = [
     name: `SAYURI NIGORI SAKE PINK`,
     imageUrl: storageUrl + "images/wines/16.png",
     description1: `Hakutsuru Sayuri er en såkaldt 'Nigori' Sake - en grovfiltreret Sake der byder på et mælkehvidt udseende og en fyldig, cremet smag og mundfornemmelse.`,
-    goodWith: `ette kødretter, fisk og sushi,også spicy retter.`,
+    goodWith: `lette kødretter, fisk og sushi, også krydrede retter.`,
     description2: `Sayuri bør serveres afkølet mellem 5 og 12 grader Celsius, for at få det bedste udtryk frem. Her får man sødmen, friskheden og den milde, cremede smag. Opvarmet vil den præsentere sig mere bitter og næsten harsk i sit udtryk, så det anbefaler vi ikke.
     `,
     alcohol: `12.5%`,
