@@ -86,7 +86,7 @@ const CafeItem = ({ cafe, index }) => {
 const CafePage = () => {
   return (
     <div className="cafePage a4">
-      <h2 className="cafeListTitle">Nespresso Cafe</h2>
+      <h2 className="cafeListTitle">Nespresso Kaffe</h2>
       {caffes.map((cafe, index) => (
         <CafeItem cafe={cafe} key={index} index={index} />
       ))}
