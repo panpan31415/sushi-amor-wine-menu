@@ -27,9 +27,8 @@ export const beers = [
   {
     name: "Kirin Ichiban",
     descriptions: [
-      `Kirin Ichiban er lavet i den internationale lyse pilsnerstil.`,
-      `Den aromatiske intensitet af Kirin er behersket. Let ristet og honningmalt er afbalanceret af blomsteragtige humletoner. Andre beskrivelser omfatter tyggegummi og frisk hø.`,
-      `Smagen af Kirin Ichiban er tør, medium let i kroppen og beskedent bitter. Den har en blød tekstur og moderat kulsyre. Smagsnoter inkluderer toast, frisk brød, friske blomster og velsmagende humle.`,
+      `Kirin Ichiban er en lys, gylden og filtreret pilsner fra Japan. Duften er mild og frisk, og det er malten, der skinner igennem i aromaen.`,
+      `Smagen er elegant og øllen er letdrikkelig og forfriskende af karakter. Malten giver en fin sødme og nuancer af brød, kiks og nødder. I eftersmagen får sødmen selskab af en fin humlebitterhed, der skaber en flot balance. Alt i alt en let og behagelig pilsner der går godt til mange forskellige retter i det asiatiske køkken`,
     ],
     alcohol: "5%",
     imgUrl: "kirin.png",
