@@ -4,39 +4,39 @@ export const beers = [
   {
     name: "Sapporo Premium",
     descriptions: [
-      `Sapporo Premium Beer er den bedst sælgende på japanske restauranter og izakaykas.
+      `Sapporo Premium er den mest populære øl på japanske restauranter og izakaykas.
      `,
-      `Denne blege pilsner er meget let, blød og tør – bare ikke helt så tør som rivalen Asahi Super Dry.`,
+      `Denne lyse pilsner er meget let, blød og tør – bare ikke helt så tør som rivalen Asahi Super Dry.`,
 
       `Beskeden humlebitterhedsniveauer og høj kulsyre giver en jævn drikkeoplevelse. Den aromatiske intensitet af denne øl er beskeden, med citrusagtige, blomsteragtige og kornete noter.`,
     ],
     alcohol: "4.7%",
     imgUrl: "sappro.png",
-    price: "45kr/flask(33cl)",
+    price: "45kr/stk(33cl)",
   },
   {
     name: "Asahi super dry",
     descriptions: [
-      `Asahi Super Dry er brygget med den fineste maltet byg, humle, gær og ris for at give den en tør, sprød smag og hurtig, ren finish, der aldrig bliver hængende. Vi kalder det Karakuchi.`,
-      `Asahi Super Dry beskrives som en stærkt dæmpet pilsner uden de tungere maltsmag fra konkurrenternes produkter, med en sprød, tør smag, der minder om nogle nordtyske øl.`,
+      `Asahi Super Dry er brygget med den fineste maltede byg, humle, gær og ris for at give den en tør, sprød smag og hurtig, ren finish, der aldrig bliver hængende. Vi kalder det Karakuchi.`,
+      `Asahi Super Dry beskrives som en stærkt dæmpet pilsner uden den tungere maltsmag fra konkurrenternes produkter, med en sprød, tør smag, der minder om nogle nordtyske øl.`,
     ],
     alcohol: "5.2%",
     imgUrl: "asahi.png",
-    price: "45kr/flask(33cl)",
+    price: "45kr/stk(33cl)",
   },
   {
     name: "Kirin Ichiban",
     descriptions: [
-      `Kirin Ichiban er lavet i den internationale blege pilsnerstil.`,
+      `Kirin Ichiban er lavet i den internationale lyse pilsnerstil.`,
       `Den aromatiske intensitet af Kirin er behersket. Let ristet og honningmalt er afbalanceret af blomsteragtige humletoner. Andre beskrivelser omfatter tyggegummi og frisk hø.`,
       `Smagen af Kirin Ichiban er tør, medium let i kroppen og beskedent bitter. Den har en blød tekstur og moderat kulsyre. Smagsnoter inkluderer toast, frisk brød, friske blomster og velsmagende humle.`,
     ],
     alcohol: "5%",
     imgUrl: "kirin.png",
-    price: "45kr/flask(33cl)",
+    price: "45kr/stk(33cl)",
   },
   {
-    name: "Tuber Classic",
+    name: "Tuborg Classic",
     descriptions: [
       `Den originale ’Classic’ blev introduceret i anledning af Tuborgs 120 års fødselsdag.`,
       `Tilsammen resulterer den komplekse kombination af flere forskellige typer malt i en legende blanding af en letdrikkelig øl med masser af god smag. Øllen er mørk i farven og har en lille smule sødme i smagen.`,
@@ -55,7 +55,7 @@ export const beers = [
     ],
     alcohol: "5%",
     imgUrl: "blanc.png",
-    price: "49kr/flask(33cl)",
+    price: "49kr/stk(33cl)",
   },
   {
     name: "Kronenbourg 1664 Blanc 0.0",
@@ -65,7 +65,7 @@ export const beers = [
     ],
     alcohol: "0.0%",
     imgUrl: "blanc_0.png",
-    price: "49kr/flask(33cl)",
+    price: "49kr/stk(33cl)",
   },
   {
     name: "Carlsberg Pilsner",
@@ -75,7 +75,7 @@ export const beers = [
     ],
     alcohol: "5%",
     imgUrl: "pilsen.png",
-    price: "35kr/flask(33cl)",
+    price: "35kr/stk(33cl)",
   },
   {
     name: "Carlsberg Nordic Pilsner 0,0%",
@@ -85,7 +85,7 @@ export const beers = [
     ],
     alcohol: "0.0%",
     imgUrl: "pilsen_nordic.png",
-    price: "35kr/flask(33cl)",
+    price: "35kr/stk(33cl)",
   },
 ];
 
@@ -108,7 +108,7 @@ export const BeerItem = ({ beer }) => {
             <p key={index}>{description}</p>
           ))}
         </div>
-        <div className="item__alcohol">Alcohol: {beer.alcohol}</div>
+        <div className="item__alcohol">Alkohol: {beer.alcohol}</div>
         <div className="item__price">Pris: {beer.price}</div>
       </div>
     </div>
