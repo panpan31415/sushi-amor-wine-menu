@@ -56,7 +56,7 @@ export const sodaWaterList = [
     imgUrl: "orange-juice.png",
   },
   {
-    name: "DanskeVand",
+    name: "danskevand",
     description: `alm. eller med citrus`,
     imgUrl: "sparkingWater.png",
   },
@@ -101,7 +101,7 @@ export const SodaWaterItem = ({ imgUrl, name, description }) => {
   if (name.includes("æblejuice")) {
     pictureStyle = { transform: "scale(1.6) rotateY(180deg)" };
   }
-  if (name.includes("DanskeVand")) {
+  if (name.includes("danskevand")) {
     pictureStyle = { transform: "scale(.85)" };
   }
   if (name.includes("Hyldeblomst")) {
