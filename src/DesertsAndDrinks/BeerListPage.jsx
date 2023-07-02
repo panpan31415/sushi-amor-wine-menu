@@ -45,7 +45,7 @@ export const beers = [
     imgUrl: "tuborg-classic.png",
     price: `40kr/250ml 
             55kr/500ml 
-            78kr/1L`,
+            78kr/750ml`,
   },
   {
     name: "Kronenbourg 1664 Blanc",
