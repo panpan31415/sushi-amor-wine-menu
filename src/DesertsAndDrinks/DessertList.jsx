@@ -20,7 +20,7 @@ const cakes = [
     imgUrl: cakesUrl + "chocklate_cake.png",
   },
   {
-    name: "JORDBÆR CREME LAGKAGE",
+    name: "JORDBÆR LAGKAGE",
     price: "45kr/stk",
     description:
       "Dobbeltslags kage, let og lækker kage med laktosefri flødeskum imellem. Kagen er toppet med jordbærskiver og rød jordbærgele.",
