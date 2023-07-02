@@ -56,7 +56,7 @@ export const sodaWaterList = [
     imgUrl: "orange-juice.png",
   },
   {
-    name: "danskevand",
+    name: "danskvand",
     description: `alm. eller med citrus`,
     imgUrl: "sparkingWater.png",
   },
