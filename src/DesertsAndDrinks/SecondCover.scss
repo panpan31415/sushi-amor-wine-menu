@@ -3,13 +3,13 @@
   background-image: linear-gradient(rgba(#060c0e, 1), rgba(#060c0e, 0.1));
 }
 .Restaurant {
-  background-image: url(https://sushi-amor-taastrup.s3.eu-north-1.amazonaws.com/images/amor_taastrup_restaurant.png);
+  background-image: url(https://sushi-amor-taastrup.s3.eu-north-1.amazonaws.com/images/amor_taastrup_restaurant_r1.png);
   background-position: center;
   background-size: cover;
   position: relative;
 }
 .coverText {
-  background-color: rgba(#060c0e, 0.9);
+  background-color: rgba(#060c0e, 0.93);
   position: absolute;
   top: 0mm;
   left: 0mm;
@@ -22,17 +22,17 @@
 .secondCoverText {
   font-family: "Ma Shan Zheng", cursive;
   color: var(--white);
-  font-size: 13mm;
+  font-size: 15.7mm;
   margin-top: 15mm;
   writing-mode: vertical-rl;
 
   &--1 {
     @extend .secondCoverText;
-    letter-spacing: 7mm;
+    letter-spacing: 5mm;
   }
   &--2 {
     @extend .secondCoverText;
     align-self: flex-end;
-    margin-bottom: 25mm;
+    margin-bottom: 17mm;
   }
 }
