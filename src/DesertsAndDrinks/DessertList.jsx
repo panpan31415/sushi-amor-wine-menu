@@ -109,14 +109,14 @@ const icecreams = [
   {
     name: "vanilje is",
     description:
-      "sommerland klassisk is med vaniljesmag, vi putter normalt 3 kugler i en lille skål, toppet med mælkecreme, jordbærsaucer og sukkerperler. Det er inkluderet i ad libitum menuen.",
+      "sommerland klassisk is med vaniljesmag, 3 kugler i en lille skål, toppet med flødeskum, jordbærsauce og krymmel. Det er inkluderet i ad libitum menuen.",
     price: "35kr/skål",
     imgUrl: iceCreamUrl + "vanila_icecream.png",
   },
   {
     name: "chokolade is",
     description:
-      "sommerland klassisk is med chokolade, vi plejer at putte 3 kugler i en lille skål, toppet med mælkecreme, chokoladesaucer og sukkerperler. Det er inkluderet i ad libitum menuen.",
+      "sommerland klassisk is med chokolade, 3 kugler i en lille skål, toppet med flødeskum, chokoladesauce og krymmel. Det er inkluderet i ad libitum menuen.",
     price: "35kr/skål",
     imgUrl: iceCreamUrl + "choclate_icecream.png",
   },
