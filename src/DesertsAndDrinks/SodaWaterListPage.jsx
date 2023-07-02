@@ -99,10 +99,10 @@ export const SodaWaterItem = ({ imgUrl, name, description }) => {
     pictureStyle = { transform: "scale(1.4)" };
   }
   if (name.includes("æblejuice")) {
-    pictureStyle = { transform: "scale(1.6)" };
+    pictureStyle = { transform: "scale(1.6) rotateY(180deg)" };
   }
-  if (name.includes("Danske Vand")) {
-    pictureStyle = { transform: "scale(.7)" };
+  if (name.includes("DanskeVand")) {
+    pictureStyle = { transform: "scale(.85)" };
   }
   if (name.includes("Hyldeblomst")) {
     pictureStyle = { transform: "scale(.6)" };
