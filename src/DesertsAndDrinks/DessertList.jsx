@@ -9,7 +9,7 @@ const cakes = [
     name: "BLÅBÆR LAGKAGE",
     price: "45kr/stk",
     description:
-      "Blød og saftig blåbærkage med to cremer. Lilla svamp farvet med planteekstrakter, fyldt med blåbæryoghurt, creme fraiche og flødeskum. Kagen er dækket med blåbær, blåbærpuré og gelé.",
+      "let og lækker blåbærkage med to cremer. Fyldt med blåbæryoghurt, creme fraiche og flødeskum. Kagen er toppet med blåbær, blåbærpuré og gelé.",
     imgUrl: cakesUrl + "blueberry_cake.png",
   },
   {
@@ -23,7 +23,7 @@ const cakes = [
     name: "JORDBÆR CREME LAGKAGE",
     price: "45kr/stk",
     description:
-      "Dobbeltslags kage, let og lækker svampebund kage med laktosefri flødeskum imellem. Kagen er toppet med jordbærskiver og rød jordbærgele.",
+      "Dobbeltslags kage, let og lækker kage med laktosefri flødeskum imellem. Kagen er toppet med jordbærskiver og rød jordbærgele.",
     imgUrl: cakesUrl + "starwberry_cake.png",
   },
 ];
