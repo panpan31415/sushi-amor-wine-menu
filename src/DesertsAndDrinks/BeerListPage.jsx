@@ -8,7 +8,7 @@ export const beers = [
      `,
       `Denne lyse pilsner er meget let, blød og tør – bare ikke helt så tør som rivalen Asahi Super Dry.`,
 
-      `Beskeden humlebitterhedsniveauer og høj kulsyre giver en jævn drikkeoplevelse. Den aromatiske intensitet af denne øl er beskeden, med citrusagtige, blomsteragtige og kornete noter.`,
+      `Beskeden humlebitterhedsniveauer og høj kulsyre giver en jævn drikkeoplevelse. Den aromatiske intensitet af denne øl er beskeden, med citrusagtige, blomsteragtige og Kornede noter.`,
     ],
     alcohol: "4.7%",
     imgUrl: "sappro.png",
