@@ -37,7 +37,7 @@ export const sodaWaterList = [
   },
   {
     name: "Aqua dor mineralvand",
-    description: "uden brus 0.50 L",
+    description: "uden brus, 0.50 L",
     imgUrl: "aquador.png",
   },
   {
@@ -57,12 +57,12 @@ export const sodaWaterList = [
   },
   {
     name: "danskvand",
-    description: `alm. eller med citrus`,
+    description: `alm. eller med citrus.`,
     imgUrl: "sparkingWater.png",
   },
   {
     name: "isvand",
-    description: "isvand serveres med et stykke citron, andet glas gratis",
+    description: "isvand serveres med et stykke citron, andet glas gratis.",
     imgUrl: "ice-water.png",
   },
 ];

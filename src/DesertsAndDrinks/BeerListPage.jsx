@@ -8,7 +8,7 @@ export const beers = [
      `,
       `Denne lyse pilsner er meget let, blød og tør – bare ikke helt så tør som rivalen Asahi Super Dry.`,
 
-      `Beskeden humlebitterhedsniveauer og høj kulsyre giver en jævn drikkeoplevelse. Den aromatiske intensitet af denne øl er beskeden, med citrusagtige, blomsteragtige og Kornede noter.`,
+      `Beskeden humlebitterhedsniveauer og høj kulsyre giver en jævn drikkeoplevelse. Den aromatiske intensitet af denne øl er beskeden, med citrusagtige, blomsteragtige og kornede noter.`,
     ],
     alcohol: "4.7%",
     imgUrl: "sappro.png",
@@ -17,8 +17,8 @@ export const beers = [
   {
     name: "Asahi super dry",
     descriptions: [
-      `Asahi Super Dry er brygget med den fineste maltede byg, humle, gær og ris for at give den en tør, sprød smag og hurtig, ren finish, der aldrig bliver hængende. Vi kalder det Karakuchi.`,
-      `Asahi Super Dry beskrives som en stærkt dæmpet pilsner uden den tungere maltsmag fra konkurrenternes produkter, med en sprød, tør smag, der minder om nogle nordtyske øl.`,
+      `Asahi Super Dry er brygget med den fineste maltede byg, humle, gær og ris for at give den en tør, sprød smag og en hurtig, ren finish, der aldrig bliver hængende. Vi kalder det Karakuchi.`,
+      `Asahi Super Dry beskrives som en stærkt dæmpet pilsner uden den tunge maltsmag fra konkurrenternes produkter, med en sprød, tør smag, der minder om nogle nordtyske øl.`,
     ],
     alcohol: "5.2%",
     imgUrl: "asahi.png",
@@ -28,7 +28,7 @@ export const beers = [
     name: "Kirin Ichiban",
     descriptions: [
       `Kirin Ichiban er en lys, gylden og filtreret pilsner fra Japan. Duften er mild og frisk, og det er malten, der skinner igennem i aromaen.`,
-      `Smagen er elegant og øllen er letdrikkelig og forfriskende af karakter. Malten giver en fin sødme og nuancer af brød, kiks og nødder. I eftersmagen får sødmen selskab af en fin humlebitterhed, der skaber en flot balance. Alt i alt en let og behagelig pilsner der går godt til mange forskellige retter i det asiatiske køkken`,
+      `Smagen er elegant og øllen er letdrikkelig og forfriskende af karakter. Malten giver en fin sødme og nuancer af brød, kiks og nødder. I eftersmagen får sødmen selskab af en fin humlebitterhed, der skaber en flot balance. Alt i alt en let og behagelig pilsner der går godt til mange forskellige retter i det asiatiske køkken.`,
     ],
     alcohol: "5%",
     imgUrl: "kirin.png",
@@ -49,7 +49,7 @@ export const beers = [
   {
     name: "Kronenbourg 1664 Blanc",
     descriptions: [
-      `1664 Blanc smager forfriskende med mild sødme, balancerende krydderier, hvedenoter og frugtighed fra eksotiske frugter med et strejf af citron. `,
+      `1664 Blanc smager forfriskende med mild sødme, balancerede krydderier, hvedenoter og frugtighed fra eksotiske frugter med et strejf af citron. `,
       `Selvom den har en frugtagtig karakter, blander den sig med en let syrlighed og afsluttes med en mild bitter smag fra humlen og tilsat koriander.`,
     ],
     alcohol: "5%",
@@ -70,7 +70,7 @@ export const beers = [
     name: "Carlsberg Pilsner",
     descriptions: [
       `Det er en sprød, forfriskende, perfekt afbalanceret øl, der har en fuld smag og humlet aroma.`,
-      `Carlsberg Danish Pilsner er brygget med principperne lært fra over 100 års bryggerfaring for at producere en pilsner med karakteristiske citrus- og blomsterhumlearomaer, der leverer stor smagsdybde, hvilket gør den til den perfekte øl for dem, der værdsætter autentiske drikkeoplevelser af høj kvalitet.`,
+      `Carlsberg Danish Pilsner er brygget med principperne lært fra over 100 års brygerfaring for at producere en pilsner med karakteristiske citrus- og blomsterhumlearomaer, der leverer stor smagsdybde, hvilket gør den til den perfekte øl for dem, der værdsætter autentiske drikkeoplevelser af høj kvalitet.`,
     ],
     alcohol: "5%",
     imgUrl: "pilsen.png",

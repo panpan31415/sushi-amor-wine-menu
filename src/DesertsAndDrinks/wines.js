@@ -93,7 +93,7 @@ export const wines = [
   {
     name: `TU NO HONJOZO SAKE BLACK`,
     imageUrl: storageUrl + "images/wines/9.png",
-    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    description1: `Denne flotte lille flaske er perfekt til at servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
     description2:
       "Dette er en såkaldt Honjozo Sake, hvilket vil sige at der tilsættes en anelse alkohol under gæringen. Honjozo er en relativt let, aromatisk sake, med en smule bitterhed, der er meget nem at drikke. En mild og modnet smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet. ",
@@ -107,9 +107,9 @@ export const wines = [
   {
     name: `TU NO JUNMAI SAKE WHITE `,
     imageUrl: storageUrl + "images/wines/10.png",
-    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    description1: `Denne flotte lille flaske er perfekt til at servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
-    description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet.`,
+    description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. Denne sake har en mild smag, og er lidt til den søde side. Den kan drikkes både afkølet og opvarmet.`,
     alcohol: `15%`,
     volume: `180ml`,
     systemLabel: "10",
@@ -136,7 +136,7 @@ export const wines = [
   {
     name: `VIÑA TARAPACÁ SAUVIGNON BLANC KVARTFLASKE`,
     imageUrl: storageUrl + "images/wines/mini_white.png",
-    description1: `I en tid hvor vi ønsker mere friske vine, med frisk frugt og elegance, er Sauvignon Blanc svaret på vores bønner. Denne vin er frisk og med god karakter.`,
+    description1: `I en tid hvor vi ønsker friskere vine, med frisk frugt og elegance, er Sauvignon Blanc svaret på vores bønner. Denne vin er frisk og med god karakter.`,
     goodWith: `Fisk - fede, fisk - mager, sushi, salater
     `,
     description2: `Sprød og lækker hvidvin med flotte grønne reflekser i glasset. Duften er præget af frisk græs og hyldeblomst. Smagen er fokuseret og med fin syre der giver en god længde i eftersmagen.
@@ -152,7 +152,7 @@ export const wines = [
     description1: `Tør og frisk mousserende vin fra det spanske højland. Dette er et glimrende modsvar til andre mere eksponerede og dyre udgaver af mousserende vin.
     `,
     goodWith: `Oksekød, pasta og pizza, ost - kraftig, ost - mild.`,
-    description2: `Vina Tarapaca Cabernet Sauvignon er dyb rubinrød i glasset med en duft af modne solbær og kirsebær samt noter af vanilje. Vinen er medium fyldig med en blød smag med god tæt frugt og modne tanniner. 
+    description2: `Viña Tarapaca Cabernet Sauvignon er dyb rubinrød i glasset med en duft af modne solbær og kirsebær samt noter af vanilje. Vinen er medium fyldig med en blød smag med god tæt frugt og modne tanniner. 
     `,
     alcohol: `13%`,
     volume: `18.75cl`,
@@ -162,7 +162,7 @@ export const wines = [
   {
     name: `MASUMI KARAKUCHI GOLD SAKE`,
     imageUrl: storageUrl + "images/wines/14.png",
-    description1: `Den er robust og smagfuld, men formår på samme tid at beholde et let udtryk og en mild aroma. `,
+    description1: `Denne sake er robust og smagfuld, men formår på samme tid at beholde et let udtryk og en mild aroma. `,
     goodWith: `grillet fisk, yakitori, teriyaki, sukiyaki og nabe hotpots.
     `,
     description2: `Karakuchi Gold er en af bryggernes favoritter hos Masumi, da den går perfekt til de mere solide og krydrede japanske retter, der er skønne efter en lang dags hårdt arbejde i bryggeriet.`,
@@ -191,7 +191,7 @@ export const wines = [
     name: `SAYURI NIGORI SAKE PINK`,
     imageUrl: storageUrl + "images/wines/16.png",
     description1: `Hakutsuru Sayuri er en såkaldt 'Nigori' Sake - en grovfiltreret Sake der byder på et mælkehvidt udseende og en fyldig, cremet smag og mundfornemmelse.`,
-    goodWith: `lette kødretter, fisk og sushi, også krydrede retter.`,
+    goodWith: `lette kødretter, fisk og sushi, krydrede retter.`,
     description2: `Sayuri bør serveres afkølet mellem 5 og 12 grader Celsius, for at få det bedste udtryk frem. Her får man sødmen, friskheden og den milde, cremede smag. Opvarmet vil den præsentere sig mere bitter og næsten harsk i sit udtryk, så det anbefaler vi ikke.
     `,
     alcohol: `12.5%`,

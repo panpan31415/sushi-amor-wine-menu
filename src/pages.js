@@ -96,7 +96,7 @@ const pages = {
   12: {
     name: `TU NO HONJOZO SAKE BLACK`,
     imageUrl: storageUrl + "images/wines/9.png",
-    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    description1: `Den flotte lille flaske er perfekt til at servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer`,
     description2:
       "Dette er en såkaldt Honjozo Sake, hvilket vil sige at der tilsættes en anelse alkohol under gæringen. Honjozo er en relativt let, aromatisk sake, med en smule bitterhed, der er meget nem at drikke. En mild og modnet smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet. ",
@@ -110,7 +110,7 @@ const pages = {
   13: {
     name: `TU NO JUNMAI SAKE WHITE `,
     imageUrl: storageUrl + "images/wines/10.png",
-    description1: `Den flotte lille flaske er perfekt til servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
+    description1: `Den flotte lille flaske er perfekt til at servere direkte på bordet, hvor den vil pryde enhver japansk anretning.`,
     goodWith: `sushi, ramen, tempura og andre japanske fødevarer.`,
     description2: `Dette er en såkaldt Junmai Sake, hvilket vil sige at der ikke er tilføjet destilleret alkohol i gæringsprocessen. Tsu No Junmai er en let, aromatisk sake, med en mild bitterhed, der er meget nem at drikke. En mild og smag, og lidt til den søde side. Den kan drikkes både afkølet og opvarmet.`,
     alcohol: `15%`,

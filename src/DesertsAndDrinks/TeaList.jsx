@@ -39,7 +39,7 @@ const teas = [
     systemLabel: "T3",
     name: "Grøn Sakura Te (Japansk Kirsebær)",
     ingredient: "Grøn te, Kirsebær aroma, Rosenblade",
-    description: `Grøn Sakura te er sammensat af den milde og klassiske grønne Sencha te, japanske sakura kirsebær samt rosenblade. En skøn te der smager af forår. Gratis genopfyldning`,
+    description: `Grøn Sakura te er sammensat af den milde og klassiske grønne Sencha te, japanske sakura kirsebær samt rosenblade. En skøn te der smager af forår. Gratis genopfyldning.`,
     price: "79kr/kande",
     imgUrl1: "T3_1.png",
     imgUrl2: "T3_2.png",

@@ -23,7 +23,7 @@ const cakes = [
     name: "JORDBÆR LAGKAGE",
     price: "45kr/stk",
     description:
-      "Dobbeltslags kage, let og lækker kage med laktosefri flødeskum imellem. Kagen er toppet med jordbærskiver og rød jordbærgele.",
+      "Dobbeltlags kage, let og lækker kage med laktosefri flødeskum imellem. Kagen er toppet med jordbærskiver og rød jordbærgele.",
     imgUrl: cakesUrl + "starwberry_cake.png",
   },
 ];
@@ -107,16 +107,16 @@ const iceCreamUrl =
 
 const icecreams = [
   {
-    name: "vanilje is",
+    name: "vaniljeis",
     description:
       "sommerland klassisk is med vaniljesmag, 3 kugler i en lille skål, toppet med flødeskum, jordbærsauce og krymmel. Det er inkluderet i ad libitum menuen.",
     price: "35kr/skål",
     imgUrl: iceCreamUrl + "vanila_icecream.png",
   },
   {
-    name: "chokolade is",
+    name: "chokoladeis",
     description:
-      "sommerland klassisk is med chokolade, 3 kugler i en lille skål, toppet med flødeskum, chokoladesauce og krymmel. Det er inkluderet i ad libitum menuen.",
+      "sommerland klassisk is med chokoladesmag, 3 kugler i en lille skål, toppet med flødeskum, chokoladesauce og krymmel. Det er inkluderet i ad libitum menuen.",
     price: "35kr/skål",
     imgUrl: iceCreamUrl + "choclate_icecream.png",
   },
