@@ -90,7 +90,6 @@ const CafePage = () => {
       {caffes.map((cafe, index) => (
         <CafeItem cafe={cafe} key={index} index={index} />
       ))}
-      <div className="cafeItem--2"></div>
     </div>
   );
 };

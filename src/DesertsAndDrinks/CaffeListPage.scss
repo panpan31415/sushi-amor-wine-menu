@@ -3,6 +3,7 @@
   text-transform: uppercase;
   font-size: 10mm;
   margin: 5mm;
+  margin-bottom: 0mm;
   text-align: center;
 }
 .cafePage {
@@ -11,7 +12,7 @@
   overflow: hidden;
 }
 .cafeItem {
-  width: 190mm;
+  width: 195mm;
   height: 100mm;
   background-color: var(--white);
   box-shadow: 1mm -1mm 1mm rgba(0, 0, 0, 0.4);
@@ -75,7 +76,7 @@
     color: var(--white);
     background-color: var(--dark-blue);
     border-radius: 40mm;
-    transform: translateX(1mm) translateY(-4mm);
+    transform: translateX(1mm) translateY(-3mm);
   }
   &__price {
     display: block;
@@ -95,7 +96,7 @@
   }
   &--2 {
     @extend .cafeItem;
-    transform: translateY(-15mm) translateX(25mm);
+    transform: translateY(-15mm) translateX(20mm);
   }
   &--3 {
     @extend .cafeItem;
